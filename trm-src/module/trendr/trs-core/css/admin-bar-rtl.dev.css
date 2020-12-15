@@ -1,0 +1,27 @@
+#trmadminbar .quicklinks li#Backend-WeaprEcqaKejUbRq-trendr-bar-my-account ul,
+#trmadminbar .quicklinks li#Backend-WeaprEcqaKejUbRq-trendr-bar-my-account-with-portrait ul {
+	left: auto;
+	right: 0;
+}
+#trmadminbar .quicklinks li#Backend-WeaprEcqaKejUbRq-trendr-bar-user-admin-with-portrait > a img,
+#trmadminbar .quicklinks li#Backend-WeaprEcqaKejUbRq-trendr-bar-group-admin-with-portrait > a img {
+	margin: -2px -5px 0 23px;
+}
+#trmadminbar .quicklinks li#Backend-WeaprEcqaKejUbRq-trendr-bar-user-admin-with-portrait ul,
+#trmadminbar .quicklinks li#Backend-WeaprEcqaKejUbRq-trendr-bar-group-admin-with-portrait ul {
+	left: auto;
+	right: 30px;
+}
+#trmadminbar .quicklinks li#Backend-WeaprEcqaKejUbRq-trendr-bar-user-admin-with-portrait ul ul,
+#trmadminbar .quicklinks li#Backend-WeaprEcqaKejUbRq-trendr-bar-group-admin-with-portrait ul ul {
+	left: auto;
+ 	right: 0;
+}
+#trmadminbar .quicklinks li#Backend-WeaprEcqaKejUbRq-trendr-bar-group-admin-with-portrait ul {
+	left: auto;
+ 	right: 0;
+}
+#trmadminbar .quicklinks li#Backend-WeaprEcqaKejUbRq-trendr-bar-group-admin-with-portrait ul ul {
+	left: auto;
+ 	right: 0;
+}

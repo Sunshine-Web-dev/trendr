@@ -1,0 +1,46 @@
+O:8:"stdClass":40:{s:2:"ID";s:1:"1";s:10:"user_login";s:5:"admin";s:9:"user_pass";s:34:"$P$BD8hFeU.BAPSENDne1.wbxc8ml4CGV1";s:13:"user_nicename";s:5:"admin";s:10:"user_email";s:11:"ytr@fgh.com";s:8:"user_url";s:0:"";s:15:"user_registered";s:19:"2018-08-23 06:32:46";s:19:"user_activation_key";s:0:"";s:11:"user_status";s:1:"0";s:12:"display_name";s:5:"admin";s:10:"first_name";s:0:"";s:9:"last_name";s:0:"";s:8:"nickname";s:5:"admin";s:11:"description";s:0:"";s:12:"rich_editing";s:4:"true";s:17:"comment_shortcuts";s:5:"false";s:11:"admin_color";s:5:"fresh";s:7:"use_ssl";s:1:"0";s:20:"show_admin_bar_front";s:4:"true";s:20:"show_admin_bar_admin";s:5:"false";s:3:"aim";s:0:"";s:3:"yim";s:0:"";s:6:"jabber";s:0:"";s:16:"trm_capabilities";a:1:{s:13:"administrator";s:1:"1";}s:14:"trm_user_level";s:2:"10";s:17:"plugins_last_view";s:6:"active";s:13:"last_activity";s:19:"2018-08-29 23:09:52";s:17:"trs_latest_update";a:2:{s:2:"id";s:3:"106";s:7:"content";s:2070:"if ( !function_exists( 'trs_dtheme_enqueue_styles' ) ) :
+/**
+ * Enqueue theme CSS safely
+ *
+ * For maximum flexibility, trendr Default's stylesheet is enqueued, using trm_enqueue_style().
+ * If you're building a child theme of trs-default, your stylesheet will also be enqueued,
+ * automatically, as dependent on trs-default's CSS. For this reason, trs-default child themes are
+ * not recommended to include trs-default's stylesheet using @import.
+ *
+ * If you would prefer to use @import, or would like to change the way in which stylesheets are
+ * enqueued, you can override trs_dtheme_enqueue_styles() in your theme's functions.php file.
+ *
+ * @see http://codex.wordpress.org/Function_Reference/trm_enqueue_style
+ * @see http://codex.trendr.org/releases/1-5-developer-and-designer-information/
+ * @since 1.5
+ */
+function trs_dtheme_enqueue_styles() {
+	
+	// Bump this when changes are made to bust cache
+	$version = '20120110';
+
+	// Register our main stylesheet
+	trm_register_style( 'trs-default-main', get_template_directory_uri() . '/a/css/default.css', array(), $version );
+
+	// If the current theme is a child of trs-default, enqueue its stylesheet
+	if ( is_child_theme() &amp;&amp; 'trs-default' == get_template() ) {
+		trm_enqueue_style( get_stylesheet(), get_stylesheet_uri(), array( 'trs-default-main' ), $version );
+	}
+
+	// Enqueue the main stylesheet
+	trm_enqueue_style( 'trs-default-main' );
+
+	// Default CSS RTL
+	if ( is_rtl() )
+		trm_enqueue_style( 'trs-default-main-rtl',  get_template_directory_uri() . '/a/css/default-rtl.css', array( 'trs-default-main' ), $version );
+
+	// Responsive layout
+	if ( current_theme_supports( 'trs-default-responsive' ) ) {
+		trm_enqueue_style( 'trs-default-responsive', get_template_directory_uri() . '/a/css/responsive.css', array( 'trs-default-main' ), $version );
+
+		if ( is_rtl() )
+			trm_enqueue_style( 'trs-default-responsive-rtl', get_template_directory_uri() . '/a/css/responsive-rtl.css', array( 'trs-default-responsive' ), $version );
+	}
+}
+add_action( 'trm_enqueue_scripts', 'trs_dtheme_enqueue_styles' );
+endif;";}s:23:"trs_favorite_activities";a:6:{i:3;s:2:"17";i:4;s:2:"19";i:7;s:2:"64";i:8;s:2:"66";i:9;s:2:"68";i:10;s:2:"82";}s:38:"trm_dashboard_quick_press_last_post_id";s:1:"8";s:20:"trs_liked_activities";a:12:{i:9;s:14:"activity_liked";i:54;s:14:"activity_liked";i:64;s:14:"activity_liked";i:12;s:14:"activity_liked";i:13;s:14:"activity_liked";i:66;s:14:"activity_liked";i:79;s:14:"activity_liked";i:81;s:14:"activity_liked";i:26;s:14:"activity_liked";i:92;s:14:"activity_liked";i:101;s:14:"activity_liked";i:100;s:14:"activity_liked";}s:23:"trs_follow_has_notified";a:1:{i:0;s:1:"2";}s:16:"trm_usersettings";s:8:"m3=cm5=o";s:20:"trm_usersettingstime";s:10:"1535413874";s:13:"profile_cover";s:52:"http://localhost/trm-src/uploads/2018/08/index53.jpg";s:23:"profile_cover_file_path";s:59:"E:LocalServerAppServwww/trm-src/uploads/2018/08/index53.jpg";s:10:"user_level";s:2:"10";s:14:"user_firstname";s:0:"";s:13:"user_lastname";s:0:"";s:16:"user_description";s:0:"";}

@@ -1,0 +1,9 @@
+/* Jcrop Minified CSS v0.9.8 - http://jcrop.org/ */
+.jcrop-holder{text-align:left;}
+.jcrop-vline,.jcrop-hline{background:#FFF url(Jcrop.gif) top left repeat;font-size:0;position:absolute;}
+.jcrop-vline{height:100%;width:1px!important;}
+.jcrop-hline{height:1px!important;width:100%;}
+.jcrop-handle{background-color:#333;border:1px #eee solid;font-size:1px;height:7px!important;width:7px!important;}
+.jcrop-tracker{height:100%;width:100%;}
+.custom .jcrop-vline,.custom .jcrop-hline{background:#FF0;}
+.custom .jcrop-handle{-moz-border-radius:3px;-webkit-border-radius:3px;background-color:#C7BB00;border-color:#000;}

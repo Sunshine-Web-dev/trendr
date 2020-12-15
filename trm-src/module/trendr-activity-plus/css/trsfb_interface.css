@@ -1,0 +1,64 @@
+.med_form_container {
+	padding: 1em;
+	background-color: #eee;
+}
+.med_actions_container, .med_preview_container {
+	margin-bottom: 1em;
+}
+input.med_primary_button, input.med_primary_button:hover {
+	background: #5fb3c9;
+	color: #fff;
+}
+.med_waiting {
+	width: 100%;
+	height: 50px;
+	background: url(../img/system/waiting.gif) center top no-repeat;
+}
+
+#med_video_url, #med_link_preview_url {
+	color: #ccc;
+	font-style: italic;
+}
+#med_video_url.changed, #med_link_preview_url.changed {
+	color: #333;
+	font-style: normal;
+}
+
+.med_link_preview_title {
+	font-weight: bold;
+	font-size: 1.1em;
+}
+.med_link_preview_url {
+	color: #666;
+	font-size: .8em;
+}
+.med_link_preview_container {
+	width: 180px;
+	height: 135px;
+	overflow: hidden;
+}
+
+.med_controls_container .qq-upload-button {
+	background: #5fb3c9;
+	color: #fff;
+	padding: 3px;
+}
+.med_preview_photo_item {
+	margin-right: 5px;
+	border: 3px solid #fff;
+}
+
+
+.med_final_link .med_link_preview_container {
+	float: left;
+}
+.med_final_link .med_link_contents {
+	width: 400px;
+	float: left;
+	margin-left: 10px;
+}
+
+#med-too_many_photos {
+	font-weight: bold;
+	font-style: italic;
+}

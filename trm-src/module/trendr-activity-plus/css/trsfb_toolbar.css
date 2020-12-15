@@ -1,0 +1,236 @@
+.med_toolbar_container, .med_controls_container {
+	clear: left;
+	padding-top: 5px;
+}
+.med-alignment-right .med_toolbar_container, .med-alignment-right .med_controls_container {
+	clear: right;
+}
+
+.med_toolbarItem {
+	border: none;
+	text-decoration: none;
+	display: block;
+	float: left;
+	height: 32px;
+	width: 32px;
+	margin-right: 1ex;
+	overflow: hidden;
+}
+.med-alignment-right .med_toolbarItem {
+	float: right;
+}
+
+.med_toolbarItem span {
+	display: block;
+	position: absolute;
+	left: -12000000000px;
+	display: none;
+}
+
+#med_addPhotos {
+	background: url(../img/system/camera.png) left top no-repeat;
+}
+#med_addVideos {
+	background: url(../img/system/film.png) left top no-repeat;
+}
+#med_addLinks {
+	background: url(../img/system/link.png) left top no-repeat;
+}
+#med_addDocuments {
+	background: url(../img/system/document.png) left top no-repeat;
+}
+
+
+/* --- */
+
+
+/* ----- New interface ----- */
+.med_actions_container.med-theme-new .med_toolbarItem,
+.med_actions_container.med-theme-new .med_toolbarItem:visited,
+.med_actions_container.med-theme-new .med_toolbarItem:hover
+{
+	color: #5FB3C9;
+}
+.med_actions_container.med-theme-new .med_toolbarItem:active,
+.med_actions_container.med-theme-new .med_toolbarItem.med_active {
+	color: #F33;
+}
+.med_actions_container.med-theme-new #med_addPhotos, 
+.med_actions_container.med-theme-new #med_addVideos, 
+.med_actions_container.med-theme-new #med_addLinks, 
+.med_actions_container.med-theme-new #med_addDocuments {
+	background: none;
+	font-family:'med';
+	font-size: 24px;
+	line-height: 32px;
+	font-weight:normal;
+	margin-right: .5em;
+	text-align: center;
+}
+.med_actions_container.med-theme-new #med_addPhotos:before {content:'I';}
+.med_actions_container.med-theme-new #med_addVideos:before {content:'V';}
+.med_actions_container.med-theme-new #med_addLinks:before {content:'a';}
+.med_actions_container.med-theme-new #med_addDocuments:before {content:'D';}
+
+/* primary button color scheme */
+.med_actions_container.med-theme-round .button-primary.med_primary_button, 
+.med_actions_container.med-theme-round .qq-upload-button
+{
+	color: #FFFFFF;
+	background: #5FB3C9 !important;
+}
+
+/* ----- Waiting animation / requires CSS3 transforms ----- */
+.med_actions_container.med-theme-new .med_waiting {
+	background: none;
+	font-family:'med';
+	font-size: 24px;
+	font-weight:normal;
+	text-align: center;
+}
+.med_actions_container.med-theme-new .med_waiting:after {
+	display: block;
+	content: "\2e";
+	height: 24px;
+	width: 24px;
+	line-height: 24px;
+	margin: 0 auto;
+	-webkit-animation:med_spin 1s infinite steps(8);
+    -moz-animation:med_spin 1s infinite steps(8);
+    animation:med_spin 1s infinite steps(8);
+}
+@-moz-keyframes med_spin { 0% {-moz-transform: rotate(0);} 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes med_spin { 0% {-webkit-transform: rotate(0);} 100% { -webkit-transform: rotate(360deg); } }
+@keyframes med_spin { 0% {transform: rotate(0);} 100% { transform: rotate(360deg); } }
+
+
+.med_actions_container.med-theme-new div.med_thumbnail_chooser img {
+	display: none;
+}
+.med_actions_container.med-theme-new span.med_thumbnail_chooser_label {
+	padding: 0;
+}
+
+.med_actions_container.med-theme-new .med_thumbnail_chooser {
+	font-size: 12px;
+	line-height: 16px;
+}
+.med_actions_container.med-theme-new .med_thumbnail_chooser .med_left:before {
+	display: inline-block;
+	font-size: 16px;
+	height: 16px;
+	width: 24px;
+	font-family:'med';
+	content: "L";
+	cursor: pointer;
+}
+.med_actions_container.med-theme-new .med_thumbnail_chooser .med_right:after {
+	display: inline-block;
+	font-size: 16px;
+	height: 16px;
+	width: 24px;
+	padding-left: 1em;
+	font-family:'med';
+	content: "R";
+	cursor: pointer;
+}
+
+
+/* ----- Round interface ----- */
+.med_actions_container.med-theme-round .med_toolbarItem {
+	line-height: 32px;
+	border-radius: 32px;
+}
+.med_actions_container.med-theme-round #med_addPhotos, 
+.med_actions_container.med-theme-round #med_addVideos, 
+.med_actions_container.med-theme-round #med_addLinks, 
+.med_actions_container.med-theme-round #med_addDocuments {
+	font-family:'med';
+	font-size: 14px;
+	font-weight: normal;
+	margin-right: .5em;
+	text-align: center;
+	border: 1px solid #444;
+}
+.med_actions_container.med-theme-round #med_addPhotos:before {content:'I';}
+.med_actions_container.med-theme-round #med_addVideos:before {content:'V';}
+.med_actions_container.med-theme-round #med_addLinks:before {content:'a';}
+.med_actions_container.med-theme-round #med_addDocuments:before {content:'D';}
+
+.med_actions_container.med-theme-round .med_toolbarItem,
+.med_actions_container.med-theme-round .med_toolbarItem:visited,
+.med_actions_container.med-theme-round .med_toolbarItem:hover
+{
+	color: #eee;
+	background: #555 !important;
+}
+.med_actions_container.med-theme-round .med_toolbarItem:active,
+.med_actions_container.med-theme-round .med_toolbarItem.med_active {
+	color: #333;
+	background: #eee !important;
+	border: none !important;
+	font-size: 24px !important;
+}
+/* primary button color scheme */
+.med_actions_container.med-theme-round .button-primary.med_primary_button, 
+.med_actions_container.med-theme-round .qq-upload-button
+{
+	color: #eee;
+	background: #555 !important;
+}
+
+
+/* ----- Waiting animation / requires CSS3 transforms ----- */
+.med_actions_container.med-theme-round .med_waiting {
+	background: none;
+	font-family:'med';
+	font-size: 24px;
+	font-weight:normal;
+	text-align: center;
+}
+.med_actions_container.med-theme-round .med_waiting:after {
+	display: block;
+	content: "\2e";
+	height: 24px;
+	width: 24px;
+	line-height: 24px;
+	margin: 0 auto;
+	-webkit-animation:med_spin 1s infinite steps(8);
+    -moz-animation:med_spin 1s infinite steps(8);
+    animation:med_spin 1s infinite steps(8);
+}
+@-moz-keyframes med_spin { 0% {-moz-transform: rotate(0);} 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes med_spin { 0% {-webkit-transform: rotate(0);} 100% { -webkit-transform: rotate(360deg); } }
+@keyframes med_spin { 0% {transform: rotate(0);} 100% { transform: rotate(360deg); } }
+
+
+.med_actions_container.med-theme-round div.med_thumbnail_chooser img {
+	display: none;
+}
+.med_actions_container.med-theme-round span.med_thumbnail_chooser_label {
+	padding: 0;
+}
+
+.med_actions_container.med-theme-round .med_thumbnail_chooser {
+	font-size: 12px;
+	line-height: 16px;
+}
+.med_actions_container.med-theme-round .med_thumbnail_chooser .med_left:before {
+	display: inline-block;
+	font-size: 16px;
+	height: 16px;
+	width: 24px;
+	font-family:'med';
+	content: "L";
+	cursor: pointer;
+}
+.med_actions_container.med-theme-round .med_thumbnail_chooser .med_right:after {
+	display: inline-block;
+	font-size: 16px;
+	height: 16px;
+	width: 24px;
+	padding-left: 1em;
+	font-family:'med';
+	content: "R";
+	cursor: pointer;
+}

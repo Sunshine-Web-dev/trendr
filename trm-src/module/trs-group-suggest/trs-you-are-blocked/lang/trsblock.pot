@@ -1,0 +1,91 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: trendr Block\n"
+"POT-Creation-Date: 2013-09-22 22:45+0100\n"
+"PO-Revision-Date: 2013-09-22 22:45+0100\n"
+"Last-Translator: Gabriel Sebastian Merovingi <support@mycred.me>\n"
+"Language-Team: \n"
+"Language: English\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: /Users/gabriel/Sites/trendr/trm-content/module/"
+"trendr-block\n"
+
+#: /Users/gabriel/Sites/trendr/trm-content/module/trendr-block/includes/trsb-actions.php:23
+msgid "User successfully unblocked"
+msgstr ""
+
+#: /Users/gabriel/Sites/trendr/trm-content/module/trendr-block/includes/trsb-actions.php:31
+msgid "You can not block administrators / moderators"
+msgstr ""
+
+#: /Users/gabriel/Sites/trendr/trm-content/module/trendr-block/includes/trsb-actions.php:39
+msgid "User successfully blocked"
+msgstr ""
+
+#: /Users/gabriel/Sites/trendr/trm-content/module/trendr-block/includes/trsb-actions.php:62
+#: /Users/gabriel/Sites/trendr/trm-content/module/trendr-block/includes/trsb-actions.php:75
+msgid "Block"
+msgstr ""
+
+#: /Users/gabriel/Sites/trendr/trm-content/module/trendr-block/includes/trsb-friends.php:46
+msgid "Friendship could not be requested."
+msgstr ""
+
+#: /Users/gabriel/Sites/trendr/trm-content/module/trendr-block/includes/trsb-friends.php:48
+msgid "Friendship requested"
+msgstr ""
+
+#: /Users/gabriel/Sites/trendr/trm-content/module/trendr-block/includes/trsb-friends.php:52
+msgid "You are already friends with this user"
+msgstr ""
+
+#: /Users/gabriel/Sites/trendr/trm-content/module/trendr-block/includes/trsb-friends.php:54
+msgid "You already have a pending friendship request with this user"
+msgstr ""
+
+#: /Users/gabriel/Sites/trendr/trm-content/module/trendr-block/includes/trsb-profile.php:15
+msgid "Blocked Members"
+msgstr ""
+
+#: /Users/gabriel/Sites/trendr/trm-content/module/trendr-block/includes/trsb-profile.php:42
+msgid "Members this user blocks"
+msgstr ""
+
+#: /Users/gabriel/Sites/trendr/trm-content/module/trendr-block/includes/trsb-profile.php:44
+msgid "Members you currently block"
+msgstr ""
+
+#: /Users/gabriel/Sites/trendr/trm-content/module/trendr-block/includes/trsb-profile.php:61
+msgid "User"
+msgstr ""
+
+#: /Users/gabriel/Sites/trendr/trm-content/module/trendr-block/includes/trsb-profile.php:62
+msgid "Actions"
+msgstr ""
+
+#: /Users/gabriel/Sites/trendr/trm-content/module/trendr-block/includes/trsb-profile.php:73
+msgid "No users found"
+msgstr ""
+
+#: /Users/gabriel/Sites/trendr/trm-content/module/trendr-block/includes/trsb-profile.php:88
+msgid "Unblock"
+msgstr ""
+
+#: /Users/gabriel/Sites/trendr/trm-content/module/trendr-block/templates/blocked.php:6
+#: /Users/gabriel/Sites/trendr/trm-content/module/trendr-block/templates/blocking.php:6
+msgid "Blocked Profile"
+msgstr ""
+
+#: /Users/gabriel/Sites/trendr/trm-content/module/trendr-block/templates/blocked.php:7
+msgid "You have selected to block this profile"
+msgstr ""
+
+#: /Users/gabriel/Sites/trendr/trm-content/module/trendr-block/templates/blocking.php:7
+msgid "This user has blocked you"
+msgstr ""

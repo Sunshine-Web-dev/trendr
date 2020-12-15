@@ -1,0 +1,62 @@
+#trmadminbar .quicklinks li#Backend-WeaprEcqaKejUbRq-trendr-bar-my-account ul,
+#trmadminbar .quicklinks li#Backend-WeaprEcqaKejUbRq-trendr-bar-my-account-with-portrait ul {
+	left: 0;
+	right: auto;
+}
+#Backend-WeaprEcqaKejUbRq-trendr-bar-user-info img.portrait {
+	height: 64px;
+	width: 64px;
+}
+
+/* Displayed User */
+#trmadminbar .quicklinks li#Backend-WeaprEcqaKejUbRq-trendr-bar-user-admin-with-portrait > a {
+	border-left: none;
+	background: url(../images/admin-bar-sprite.png?d=11122010) top left no-repeat;
+}
+#trmadminbar .quicklinks li#Backend-WeaprEcqaKejUbRq-trendr-bar-user-admin-with-portrait > a img,
+#trmadminbar .quicklinks li#Backend-WeaprEcqaKejUbRq-trendr-bar-group-admin-with-portrait > a img {
+	width: 16px;
+	height: 16px;
+	display: inline;
+	border: 1px solid #999;
+	vertical-align: middle;
+	margin: -2px 23px 0 -5px;
+	padding: 0;
+	background: #eee;
+	float: none;
+}
+#trmadminbar .quicklinks li#Backend-WeaprEcqaKejUbRq-trendr-bar-user-admin-with-portrait ul,
+#trmadminbar .quicklinks li#Backend-WeaprEcqaKejUbRq-trendr-bar-group-admin-with-portrait ul {
+	left: 30px;
+}
+#trmadminbar .quicklinks li#Backend-WeaprEcqaKejUbRq-trendr-bar-user-admin-with-portrait ul ul,
+#trmadminbar .quicklinks li#Backend-WeaprEcqaKejUbRq-trendr-bar-group-admin-with-portrait ul ul {
+ 	left: 0;
+}
+
+/* Displayed Group */
+#trmadminbar .quicklinks li#Backend-WeaprEcqaKejUbRq-trendr-bar-group-admin-with-portrait > a {
+	border-left: none;
+	background: url(../images/admin-bar-sprite.png?d=11122010) top left no-repeat;
+}
+#trmadminbar .quicklinks li#Backend-WeaprEcqaKejUbRq-trendr-bar-group-admin-with-portrait ul {
+	left: 0;
+}
+#trmadminbar .quicklinks li#Backend-WeaprEcqaKejUbRq-trendr-bar-group-admin-with-portrait ul ul {
+ 	left: 0;
+}
+#trmadminbar .quicklinks li#Backend-WeaprEcqaKejUbRq-trendr-bar-my-account a span.count,
+#trmadminbar .quicklinks li#Backend-WeaprEcqaKejUbRq-trendr-bar-my-account-with-portrait a span.count,
+#trmadminbar .quicklinks li#Backend-WeaprEcqaKejUbRq-trendr-bar-trs-notifications #ab-pending-notifications {
+	background: #eee;
+	color: #333;
+	text-shadow: none;
+	display: inline;
+	padding: 2px 5px;
+	font-size: 10px;
+	font-weight: bold;
+	-moz-border-radius: 10px;
+	-khtml-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+}

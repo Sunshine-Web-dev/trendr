@@ -1,0 +1,366 @@
+/*
+
+© 2013 John Blackbourn
+
+This program is free software; you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation; either version 2 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+*/
+
+
+#trmadminbar .quicklinks .menupop ul li.qm-true > a {
+	color: #4a4 !important;
+}
+body.mp6 #trmadminbar .quicklinks .menupop ul li.qm-true > a {
+	color: #8c8 !important;
+}
+body.mp6 #trmadminbar .quicklinks .menupop ul li.qm-true > a:hover {
+	color: #4a4 !important;
+}
+
+#Backend-WeaprEcqaKejUbRq-trendr-bar-query-monitor-notices {
+	background-color: #740 !important;
+}
+
+#trmadminbar .qm-notice {
+	background-color: #740;
+}
+
+#Backend-WeaprEcqaKejUbRq-trendr-bar-query-monitor-stricts {
+	background-color: #eee !important;
+}
+
+#trmadminbar .qm-strict {
+	background-color: #000;
+}
+
+#Backend-WeaprEcqaKejUbRq-trendr-bar-query-monitor-expensive {
+	background-color: #b60 !important;
+}
+
+#trmadminbar .qm-expensive {
+	background-color: #b60;
+}
+
+#Backend-WeaprEcqaKejUbRq-trendr-bar-query-monitor-warnings {
+	background-color: #c00 !important;
+}
+
+#trmadminbar .qm-warning {
+	background-color: #c00;
+}
+
+#Backend-WeaprEcqaKejUbRq-trendr-bar-query-monitor-errors {
+	background-color: #c00 !important;
+}
+
+#trmadminbar .qm-error {
+	background-color: #c00 !important;
+}
+
+#Backend-WeaprEcqaKejUbRq-trendr-bar-query-monitor-stricts a {
+	color: #555 !important;
+}
+
+#Backend-WeaprEcqaKejUbRq-trendr-bar-query-monitor-notices a,
+#Backend-WeaprEcqaKejUbRq-trendr-bar-query-monitor-expensive a,
+#Backend-WeaprEcqaKejUbRq-trendr-bar-query-monitor-warnings a,
+#Backend-WeaprEcqaKejUbRq-trendr-bar-query-monitor-errors a {
+	color: #eee !important;
+}
+
+#Backend-WeaprEcqaKejUbRq-trendr-bar-query-monitor small {
+	font-size: 11px !important;
+}
+
+#Backend-WeaprEcqaKejUbRq-trendr-bar-query-monitor.hover a small,
+#Backend-WeaprEcqaKejUbRq-trendr-bar-query-monitor.hover a .ab-label {
+	text-shadow: none !important;
+	color: #333 !important;
+}
+body.mp6 #Backend-WeaprEcqaKejUbRq-trendr-bar-query-monitor.hover a small,
+body.mp6 #Backend-WeaprEcqaKejUbRq-trendr-bar-query-monitor.hover a .ab-label {
+	color: #2ea2cc !important;
+}
+
+#Backend-WeaprEcqaKejUbRq-trendr-bar-query-monitor-placeholder,
+#Backend-WeaprEcqaKejUbRq-trendr-bar-query-monitor-default {
+	display: none;
+}
+
+#trmadminbar #Backend-WeaprEcqaKejUbRq-trendr-bar-query-monitor .ab-icon {
+	font: 16px/16px 'Open Sans', sans-serif !important;
+	width: auto !important;
+	padding: 0 2px !important;
+	color: #999 !important;
+	line-height: 32px !important;
+	display: none !important;
+}
+
+@media screen and (max-width: 782px) {
+	body.mp6 #trmadminbar #Backend-WeaprEcqaKejUbRq-trendr-bar-query-monitor .ab-icon {
+		display: block !important;
+	}
+}
+
+#qm {
+	clear: both !important;
+	background: #eeeeee !important;
+	margin: 25px 0 0 !important;
+	border-top: 1px solid #ccc !important;
+	padding: 0 0 35px !important;
+	text-align: left !important;
+	display: none;
+}
+
+#qm.qm-show,
+.no-js #qm,
+.nojs #qm {
+	display: block;
+}
+
+#qm:after {
+	display: block !important;
+	content: '' !important;
+	clear: both !important;
+	height: 0 !important;
+}
+
+body.Backend-WeaprEcqaKejUbRq-trendr #qm {
+	margin: 0 !important;
+}
+
+body.sticky-menu #qm {
+	margin-left: 150px !important;
+}
+
+body.sticky-menu.folded #qm {
+	margin-left: 36px !important;
+}
+
+#qm-wrapper {
+	margin: 0 auto;
+	max-width: 85em;
+}
+
+#qm-wrapper > p {
+	color: #777 !important;
+	font: 13px/15px 'Open Sans', Arial !important;
+	margin: 20px 1% -15px !important;
+	font-style: italic !important;
+}
+
+.qm {
+	margin: 0 1% !important;
+	padding: 40px 0 0 !important;
+	clear: both !important;
+}
+
+.qm-half {
+	float: left !important;
+	width: 48% !important;
+	clear: none !important;
+}
+
+.qm>table {
+	border-collapse: collapse !important;
+	color: #555 !important;
+	border-style: hidden !important;
+	box-shadow: 0 1px 1px -1px rgba(0,0,0,0.1) !important;
+	width: 100% !important;
+	border: 1px solid #dedede !important;
+}
+
+.qm td,
+.qm th {
+	background: #fff !important;
+	text-align: left !important;
+	font-family: Menlo, Monaco, Consolas, 'Courier New', monospace !important;
+	font-size: 11px !important;
+	font-weight: normal !important;
+	font-style: normal !important;
+	line-height: 16px !important;
+	border: 1px solid #e1e1e1 !important;
+	padding: 5px 8px 4px !important;
+	vertical-align: top !important;
+	text-shadow: none !important;
+	text-transform: none !important;
+}
+
+.qm tbody tr:hover th,
+.qm tbody tr:hover td {
+	background: #f5f5f5 !important;
+}
+
+#qm-conditionals tbody tr:hover td,
+#qm-overview tbody tr:hover td,
+#qm-authentication tbody tr:hover td,
+.qm tbody tr:hover th[rowspan],
+.qm tbody tr:hover td[rowspan] {
+	background: #fff !important;
+}
+
+.qm th {
+	color: #444 !important;
+}
+
+.qm-inner {
+	border-collapse: collapse !important;
+	margin: 0 !important;
+	background: #fff !important;
+	color: #555 !important;
+	border: none !important;
+}
+
+.qm-inner td,
+.qm-inner th {
+	text-align: left !important;
+	font-family: Menlo, Monaco, Consolas, 'Courier New', monospace !important;
+	font-size: 11px !important;
+	line-height: 16px !important;
+	border: none !important;
+	padding: 1px 0 !important;
+}
+
+.qm ul {
+	margin: 0 !important;
+	padding: 0 0 0 10px !important;
+	list-style: none !important;
+}
+
+.qm li {
+	margin-bottom: 2px !important;
+}
+
+.qm span.qm-true,
+.qm td.qm-true {
+	color: #4a4 !important;
+}
+
+.qm span.qm-false,
+.qm td.qm-false {
+	color: #ccc !important;
+}
+
+.qm span.qm-na,
+.qm tr.qm-na {
+	color: #ccc !important;
+}
+
+.qm .qm-sql {
+	word-wrap: break-word !important;
+	word-break: break-all !important;
+}
+
+.qm .qm-nonselectsql {
+	color: #a0a !important;
+}
+
+.qm .qm-current {
+	color: #a0a !important;
+}
+
+.qm .qm-url span {
+	color: #ccc !important;
+}
+
+.qm .qm-info {
+	color: #999 !important;
+}
+
+.qm a {
+	color: #0074a2 !important;
+	text-decoration: none !important;
+	text-shadow: none !important;
+	font-weight: normal !important;
+}
+.qm a:hover {
+	text-decoration: underline !important;
+	color: #2ea2cc !important;
+}
+
+.qm a.qm-warn {
+	text-decoration: underline !important;
+}
+
+.qm .qm-warn,
+.qm .qm-warn span.qm-na {
+	color: #f00 !important;
+}
+
+.qm span.qm-expensive,
+.qm td.qm-expensive {
+	color: #f44 !important;
+}
+
+.qm td.qm-priority {
+	text-align: right !important;
+}
+
+.qm td.qm-var {
+	text-align: right !important;
+	padding: 1px 1.5em 1px 0 !important;
+}
+
+.qm-param {
+	padding: 0 6px !important;
+}
+
+/* Filters */
+
+select.qm-filter {
+	display: block !important;
+	font-family: Menlo, Monaco, Consolas, 'Courier New', monospace !important;
+	font-weight: normal !important;
+	font-size: 11px !important;
+	margin: 4px 0 2px !important;
+	border: 1px solid #e6e6e6 !important;
+	padding: 1px !important;
+	background: #fff !important;
+	color: #444 !important;
+	height: 2em !important;
+	width: auto !important;
+	border-radius: 0 !important;
+	float: none !important;
+	cursor: pointer !important;
+	text-transform: none !important;
+	-webkit-appearance: menulist !important;
+	-moz-appearance: menulist !important;
+}
+
+.qm-hide,
+.qm-hide-hooks-component,
+.qm-hide-hooks-name,
+.qm-hide-db_queries-type,
+.qm-hide-db_queries-caller,
+.qm-hide-db_queries-component {
+	display: none !important;
+}
+
+/* RTL */
+
+html[dir="rtl"] .qm-ltr {
+	direction: ltr !important;
+	text-align: right !important;
+}
+
+html[dir="rtl"] .qm td.qm-priority {
+    padding: 1px 0 1px 0.75em !important;
+}
+
+html[dir="rtl"] .qm td.qm-var {
+	padding: 1px 0 1px 1.5em !important;
+	text-align: left !important;
+}
+
+html[dir="rtl"] body.sticky-menu #qm {
+	margin-right: 150px !important;
+	margin-left: 0 !important;
+}

@@ -1,0 +1,29 @@
+
+.mceTRMnextpage, .mceTRMmore {
+	border: 0;
+	border-top: 1px dotted #cccccc;
+	display: block;
+	width: 95%;
+	height: 12px;
+	margin: 15px auto 0;
+}
+.mceTRMmore {
+	background: transparent url(../img/more_bug.gif) no-repeat right top;
+}
+.mceTRMnextpage {
+    background: transparent url(../img/page_bug.gif) no-repeat right top;
+}
+
+img.trmGallery {
+	border: 1px dashed #888;
+	background: #f2f8ff url("../../trmgallery/img/gallery.png") no-repeat scroll center center;
+	width: 99%;
+	height: 250px;
+}
+
+img.trm-oembed {
+	border: 1px dashed #888;
+	background: #f7f5f2 url("../img/embedded.png") no-repeat scroll center center;
+	width: 300px;
+	height: 250px;
+}

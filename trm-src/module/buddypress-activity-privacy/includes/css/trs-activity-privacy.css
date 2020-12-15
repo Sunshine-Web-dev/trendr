@@ -1,0 +1,142 @@
+select#activity-privacy option,
+select.trs-ap-selectbox option {
+    display: block;
+}
+
+#activity-privacy .fa,
+.trs-ap-selectbox .fa, 
+.fa {
+  font-family: 'FontAwesome', "Open Sans",Helvetica,Arial,sans-serif;
+}
+
+.trs-activity-visibility {
+  cursor: default;
+  opacity: 0.5;
+}
+
+  .trs-activity-visibility:hover {
+    opacity: 0.8;
+  }
+
+
+.customSelect { 
+  border:1px solid #fff;
+  font-size:13px; 
+  padding:1px 6px;
+}
+
+  select.hasCustomSelect {
+    cursor: pointer;
+  }
+
+
+  select.hasCustomSelect option {
+    display: block;
+  }
+
+  .customSelect.customSelectHover {
+      background: #ededed;
+      border: 1px solid #bbb;
+      color: #555;
+      outline: none;
+      text-decoration: none;
+      -moz-border-radius: 2px;
+      -webkit-border-radius: 2px;
+      border-radius: 2px 2px;
+
+  }
+
+  .customSelect.customSelectOpen {
+     border: 1px solid #aaa;
+     -webkit-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.3);
+      -moz-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.3);
+      box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.3);
+      -moz-border-radius: 2px;
+      -webkit-border-radius: 2px;
+      border-radius: 2px 2px;
+  }
+
+  .customSelect.customSelectFocus {
+  /* Styles for when the select box is in focus */
+  /*box-shadow: 0px 0px 1px 2px rgba(88, 144, 255, 0.75), 0px 1px 1px rgba(0, 0, 0, 0.15);*/
+  outline: medium none;
+
+  }
+
+  .customSelect.customSelectDisabledOption {
+  /* Styles for when the selected item is a disabled one */
+  }
+
+  .customSelect.customSelectDisabled {
+  /* Styles for when the select box itself is disabled */
+  }
+
+  .customSelect i:first-child {
+    padding-right:2px !important; 
+  }
+
+  .customSelect i:last-child {
+    padding-left:5px !important; 
+  }
+
+.customSelectInner {
+/* You can style the inner box too */
+ /* display: none !important; */
+}
+
+.fa-public:before {
+  content: "\f0ac \00a0";
+}
+
+.fa-loggedin:before {
+  content: "\f007 \00a0";
+}
+
+.fa-friends:before{
+  content: "\f005 \00a0";
+}
+
+.fa-mentionedonly:before{
+  content: "\f0e6 \00a0";
+}
+
+.fa-adminsonly:before {
+  content: "\f06e \00a0";
+}
+
+.fa-onlyme:before {
+  content: "\f023 \00a0";
+}
+
+.fa-mygroups:before {
+  content: "\f0c0 \00a0";
+}
+
+.fa-groupfriends:before {
+  content: "\f123 \00a0";
+}
+
+.fa-grouponly:before {
+  content: "\f0c0 \00a0";
+}
+
+.fa-groupmoderators:before {
+   content: "\f132 \00a0";
+}
+
+.fa-groupadmins:before {
+   content: "\f070 \00a0";
+ }
+
+
+.fa-followers:before {
+   content:"\f08a \00a0";
+}
+
+.fa-followers:before {
+   content:"\f004 \00a0";
+}
+
+.fa-groupfollowers:before {
+  content:"\f08a \00a0";
+}

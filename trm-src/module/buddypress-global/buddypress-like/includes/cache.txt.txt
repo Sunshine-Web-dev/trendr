@@ -1,0 +1,61 @@
+function trs_like_most_liked_sql( $sql, $select_sql, $from_sql, $where_sql, $sort, $page = false ) {
+  global $trmdb, $top_filter, $trs;
+  
+
+
+  if (filemtime('cache.txt') < time()-1*3600) {
+    // declare database connection details
+    $servername = 'localhost';
+    $username = 'root';
+    $password = "jsforever26";
+    $database = "trendr";
+
+    // create connection to database
+    $db = new mysqli($servername, $username, $password, $database, $dbport);
+
+    
+    // error handling if connection to database failed
+    if ($db->connect_errno) {
+        printf("Connect failed: %s\n", $mysqli->connect_error);
+        exit();
+    }
+    
+    
+    // make the SQL call
+
+
+          if( empty( $top_filter ) )
+    return $sql;
+    
+     if( strpos( $query_string, 'activity_mostliked' ) ){
+
+      
+  $select_sql .= ", am.meta_value";
+  $from_sql .=" LEFT JOIN {$trs->activity->table_name_meta} am ON a.id = am.activity_id";
+  $where_sql .= " AND am.meta_key = 'liked_count'";
+  $order = " ORDER BY am.meta_value DESC";
+  
+  $sql = $select_sql .' '.$from_sql.' '.$where_sql . $order . ' ' . $page ;
+  
+        
+        // store query result in cache.txt
+        file_put_contents('cache.txt', serialize(json_encode($sql)));
+        
+        
+        echo json_encode($sql);
+    }
+    
+    else {
+        echo 'An error occured: data could not be extracted from the database.';
+    }
+}
+else {
+  $data = unserialize(file_get_contents('cache.txt'));
+  return $data;
+}
+
+
+
+
+}
+add_filter('trs_activity_get_user_join_filter', 'trs_like_most_liked_sql', 10, 7);

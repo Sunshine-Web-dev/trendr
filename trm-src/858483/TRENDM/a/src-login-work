@@ -1,0 +1,97 @@
+.hash-title h5,.hashtitle h5 {background: #fafbfc;padding:10px;color:#6a6a6f;
+  font-size:111%;margin-bottom: 0;padding-left: 17px;line-height: 180%;
+position: relative;margin-top:0px;
+  }
+
+.hashtags a {color:#8a8a8f;font-weight:bold;padding:4px;border-radius: 3px;
+  border:1px solid #fff;padding-left:4px;position: relative;top:0px;}
+
+
+.hashtags {background: #fff;padding : 5px;
+  line-height:300%;border-radius: 0 0 2px 2px;opacity: .85;
+  padding-top:0;}
+
+
+ .side-footer{
+  padding:5px;font-size:12px;padding-top: 5px;background: #dadadf;
+     margin: 10px 0 0 0;font-weight: bold;color:#7a7a7f;
+  padding-left: 11px;border: 1px solid #dadadf}
+.side-footer a {color:#fff;}
+
+.header-login {background:none;width:205px;
+    position: relative;top:-28px;right:165px;font-weight: normal;
+    text-align: right;float: right;z-index: 1000;
+    padding: 5px;border-radius: 2px;padding-right: 11px;
+    height: 30px;
+  font-size: 14px;color:#222;
+    line-height: 230%;border-radius: 1px;border-left:0;
+}
+input#bar-search {
+  border-radius: 2px;
+  float:right;overflow: hidden;
+
+  height:21px;color:#2a2a2f;
+  margin:7px 100px 0 0px;
+  width:61.5%;cursor: initial;
+  padding-top:2px;    font-size:116%;
+  background:#fff  ;opacity: .79; padding-left: 10px;
+padding-right: 10px;  border: 1px solid #aaa;
+
+}
+.directory.posts  #bar-search, .tag  #bar-search {width:69.7%;}
+
+.header-login p{text-indent: -99999px}
+.e-link a {;width:155px;
+display:block;padding:1px ;background-size:18px 18px;
+    padding-top:4px;right: -42px;
+background-position:0px 1px;z-index: 2;
+    border-radius: 2px;font-size: 0.99rem;
+line-height: 0.5rem;color: #444;padding-left:37px;
+position:relative;float:right;top:9px;
+font-weight: normal;letter-spacing: -.005rem;
+;height:21px;}
+
+a.head-login {color: #103b78;font-size: 15px;
+  background-position: 43px 2px;padding-right: 20px;
+  background-size: 15px 15px;}
+
+.contour-inner{display: none}
+
+
+ #activity_media_filter {  font-size:106%;border-radius: 2px;
+float:right;padding: 12px;opacity: .89;
+margin: 22px 0 0;width:7px;border-radius: 15px;box-shadow:1px 1px 1px #444;
+  height:218px;padding-top: 0;background:#335ea6;margin-right:-34px;}
+
+#login-header #login-form{float: right;margin-top:-28px;
+  margin-right:168px;
+    padding:10px;  padding-right:25px;background:#f8f8f8;
+border:1px solid #aaa;
+    height:254px;border-radius: 0;
+    width:190px;z-index: 1000;
+    box-shadow: none;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 3px 8px 0px;
+    border-right: 1px solid #ccc;
+
+}
+  #login-header #submit-login {width:206px;background: #2f65b2;padding:6px 5px;
+      margin-top:12px;font-weight: bold;font-size: 12px;
+      border:1px solid #555}
+
+
+#login-header{display: inline}
+#login-header #user-login,#login-header #user-pass{padding:3px;
+    margin:-9px 0 15px 0;width:197px;
+}
+.agreement{position: relative;width:194px;font-size: 14px;height:80px;
+    left: -10px;top:-4px;margin-bottom:-59px;;background:#efefef;padding: 20px;
+   padding-bottom:0;padding-left:11px;border-top:1px solid #cacacf }
+
+
+.agreement p {    word-break: break-all;font-weight: 600;font-size: 12px;margin-left:10px}
+.agreement .terms {position: relative;color:#000; 
+    font-size: 11px;top:-40px;    word-break: break-all;width:190px;
+    left:7px;margin-bottom:0px;text-align: center}
+
+
+

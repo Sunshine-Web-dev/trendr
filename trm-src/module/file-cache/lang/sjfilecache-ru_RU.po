@@ -1,0 +1,166 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: TRM File Cache 1.2\n"
+"Report-Msgid-Bugs-To: vladimir@sjinks.org.ua\n"
+"POT-Creation-Date: 2010-03-12 23:03+0200\n"
+"PO-Revision-Date: 2008-11-28 00:07+0200\n"
+"Last-Translator: Vladimir Kolesnikov <vladimir@sjinks.org.ua>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../file-cache.php:120 ../options-file-cache.php:56
+msgid "TRM File Cache Options"
+msgstr "Настройки TRM File Cache"
+
+#: ../options-file-cache.php:3
+msgid "You don't have enough privileges to do this"
+msgstr "У Вас недостаточно прав для выполнения данной операции"
+
+#: ../options-file-cache.php:12
+#, php-format
+msgid ""
+"%1$s does not exist. Please make sure that %2$s is writable by the server."
+msgstr ""
+"%1$s не существует. Убедитесь, что у сервера есть права на запись в %2$s"
+
+#: ../options-file-cache.php:34
+msgid "Settings have been successfully updated"
+msgstr "Настройки были успешно сохранены"
+
+#: ../options-file-cache.php:37
+#, php-format
+msgid ""
+"Unable to write to file %s. Please make sure that it is writable by the "
+"server."
+msgstr ""
+"Невозможно записать в файл %s. Убедитесь, что у сервера есть права на запись "
+"в данный файл."
+
+#: ../options-file-cache.php:42
+msgid "Cache directory does not exist!"
+msgstr "Каталог для кэша не существует!"
+
+#: ../options-file-cache.php:45
+msgid "Cache directory must be readable and writable by the server!"
+msgstr "Сервер должен иметь права на чтение и запись каталога для кэша"
+
+#: ../options-file-cache.php:52
+msgid "Cache has been successfully purged"
+msgstr "Кэш был успешно сброшен"
+
+#: ../options-file-cache.php:70
+msgid "Enable TRM File Cache"
+msgstr "Включить File Cache"
+
+#: ../options-file-cache.php:73
+msgid "Disabling TRM File Cache can make Trnder crawl!"
+msgstr ""
+"Отключение TRM File Cache может негативно сказаться на производительности "
+"Trnder!"
+
+#: ../options-file-cache.php:74
+msgid ""
+"If you disable TRM File Cache, caching will be completely disabled, and "
+"Trnder will have to use the database every time it needs data. This is "
+"really slow. If you are not a Trnder developer, please do not do this."
+msgstr ""
+"При отключении TRM File Cache кэширование будет полностью запрещено, и "
+"Trnder придётся обращаться к базе данных каждый раз, когда ему необходимы "
+"данные. Это действительно очень медленно. Если Вы не являетесь разработчиком "
+"Trnder, отключение данной опции не рекомендуется."
+
+#: ../options-file-cache.php:78
+msgid "Save cached data across sessions"
+msgstr "Сохранять кэш между сессиями"
+
+#: ../options-file-cache.php:81
+msgid ""
+"If this option is set, TRM File Cache will maintain its cache between "
+"sessions to improve overall performance. Actually, this is what this plugin "
+"was made for and we strongly recommend that you don't turn this option off."
+msgstr ""
+"Если данная опция включена, TRM File Cache будет сохранять кэш между "
+"сессиями, что позволит увеличить производительность системы. Это именно то, "
+"для чего плагин был создан, и мы очень не рекомендуем отключать эту опцию."
+
+#: ../options-file-cache.php:82
+msgid ""
+"<strong>Boring technical details:</strong> TRM File Cache will save only "
+"those data that were not marked as 'non-persistent'."
+msgstr ""
+"<strong>Скучные технические подробности:</strong> TRM File Cache не будет "
+"сохранять данные, явно отмеченные как 'не подлежащие хранению'."
+
+#: ../options-file-cache.php:86
+msgid "Cache location"
+msgstr "Расположение кэша"
+
+#: ../options-file-cache.php:89
+msgid "This is the directory where TRM File Cache will store its cache."
+msgstr "Каталог, в котором TRM File Cache будет хранить кэш."
+
+#: ../options-file-cache.php:90
+msgid ""
+"<strong>Please note:</strong> this directory must be writable by the web "
+"server."
+msgstr ""
+"<strong>Внимание:</strong> сервер должен иметь права на запись в данный "
+"каталог."
+
+#: ../options-file-cache.php:91
+msgid ""
+"<strong>Security notice:</strong> it is advisable that you keep this "
+"directory outside the root of your site to make it inaccessible from the "
+"web. If this is not an option, consider restricting access to that directory."
+msgstr ""
+"<strong>Замечание по безопасности:</strong> мы рекомендуем использовать "
+"каталог, находящийся вне корня web-сервера, чтобы данные не были доступны из "
+"Internet. Если по тем или иным причинам это невозможно, попытайтесь "
+"ограничить доступ к кэшу."
+
+#: ../options-file-cache.php:92
+msgid ""
+"<strong>For Linux geeks:</strong> consider placing the cache to <code>tmpfs</"
+"code> file system (or <code>/dev/shm</code>) — this should make things "
+"faster."
+msgstr ""
+"<strong>Для Линуксоидов:</strong> размещайте кэш на файловой системе "
+"<code>tmpfs</code> (или <code>/dev/shm</code>) — это должно улучшить "
+"производительность."
+
+#: ../options-file-cache.php:96
+msgid "Do not use cache in the Admin Panel"
+msgstr ""
+
+#: ../options-file-cache.php:99
+msgid ""
+"If this option is set, TRM File Cache will not fetch the data from the cache "
+"in the Admin Panel. However, to keep the cache consistent, write cache "
+"requests will be satisfied."
+msgstr ""
+
+#: ../options-file-cache.php:103
+msgid "Non-persistent groups"
+msgstr "Несохраняемые группы"
+
+#: ../options-file-cache.php:106
+msgid ""
+"Comma-separated list of the cache groups which should never be stored across "
+"sessions."
+msgstr ""
+"Перечень групп, разделённых запятыми, которые не должны сохраняться между "
+"сессиями."
+
+#: ../options-file-cache.php:114
+msgid "Save Changes"
+msgstr "Сохранить изменения"
+
+#: ../options-file-cache.php:115
+msgid "Purge Cache"
+msgstr "Очистить кэш"
+
+#: ../options-file-cache.php:115
+msgid "Are you sure?"
+msgstr "Вы уверены?"

@@ -1,0 +1,3 @@
+
+<?php $activity_id = trs_get_activity_id();?><?php $activity_blog_id = trs_activity_get_meta( $activities_template->activity, $activity_id); ?>
+		<a href="<?php echo esc_url(trs_activity_get_permalink($activity_blog_id) .$activity_id); ?>" rel="<?php echo $rel;?>" <?php echo $target; ?> >

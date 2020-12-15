@@ -1,0 +1,464 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: trendr-activity-privacy\n"
+"POT-Creation-Date: 2015-11-26 19:08-0000\n"
+"PO-Revision-Date: 2015-11-26 19:08-0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.4\n"
+"X-Poedit-KeywordsList: gettext;gettext_noop;__;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: C:\\work\\php\\wamp_2.4\\www\\trendr\\dev\\trm-"
+"content\\plugins\\trendr-activity-privacy\n"
+
+#: C:\work\php\wamp_2.4\www\trendr\dev\trm-content\plugins\trendr-activity-privacy/includes/trs-activity-privacy-admin.php:41
+msgid "Welcome to Buddypress Activity Privacy"
+msgstr ""
+
+#: C:\work\php\wamp_2.4\www\trendr\dev\trm-content\plugins\trendr-activity-privacy/includes/trs-activity-privacy-admin.php:42
+msgid "Welcome to TRS Activity Privacy"
+msgstr ""
+
+#: C:\work\php\wamp_2.4\www\trendr\dev\trm-content\plugins\trendr-activity-privacy/includes/trs-activity-privacy-admin.php:49
+#: C:\work\php\wamp_2.4\www\trendr\dev\trm-content\plugins\trendr-activity-privacy/includes/trs-activity-privacy-admin.php:328
+msgid "BuddyPress Activity Privacy"
+msgstr ""
+
+#: C:\work\php\wamp_2.4\www\trendr\dev\trm-content\plugins\trendr-activity-privacy/includes/trs-activity-privacy-admin.php:49
+msgid "TRS Activity Privacy"
+msgstr ""
+
+#: C:\work\php\wamp_2.4\www\trendr\dev\trm-content\plugins\trendr-activity-privacy/includes/trs-activity-privacy-admin.php:112
+#: C:\work\php\wamp_2.4\www\trendr\dev\trm-content\plugins\trendr-activity-privacy/includes/trs-activity-privacy-admin.php:197
+#: C:\work\php\wamp_2.4\www\trendr\dev\trm-content\plugins\trendr-activity-privacy/includes/trs-activity-privacy-admin.php:578
+#: C:\work\php\wamp_2.4\www\trendr\dev\trm-content\plugins\trendr-activity-privacy/includes/trs-activity-privacy-loader.php:62
+#: C:\work\php\wamp_2.4\www\trendr\dev\trm-content\plugins\trendr-activity-privacy/includes/trs-activity-privacy-loader.php:128
+msgid "Anyone"
+msgstr "Jeder"
+
+#: C:\work\php\wamp_2.4\www\trendr\dev\trm-content\plugins\trendr-activity-privacy/includes/trs-activity-privacy-admin.php:119
+#: C:\work\php\wamp_2.4\www\trendr\dev\trm-content\plugins\trendr-activity-privacy/includes/trs-activity-privacy-admin.php:204
+#: C:\work\php\wamp_2.4\www\trendr\dev\trm-content\plugins\trendr-activity-privacy/includes/trs-activity-privacy-admin.php:579
+#: C:\work\php\wamp_2.4\www\trendr\dev\trm-content\plugins\trendr-activity-privacy/includes/trs-activity-privacy-loader.php:69
+#: C:\work\php\wamp_2.4\www\trendr\dev\trm-content\plugins\trendr-activity-privacy/includes/trs-activity-privacy-loader.php:135
+msgid "Logged In Users"
+msgstr "Angemeldete Benutzer"
+
+#: C:\work\php\wamp_2.4\www\trendr\dev\trm-content\plugins\trendr-activity-privacy/includes/trs-activity-privacy-admin.php:129
+#: C:\work\php\wamp_2.4\www\trendr\dev\trm-content\plugins\trendr-activity-privacy/includes/trs-activity-privacy-admin.php:214
+#: C:\work\php\wamp_2.4\www\trendr\dev\trm-content\plugins\trendr-activity-privacy/includes/trs-activity-privacy-admin.php:580
+#: C:\work\php\wamp_2.4\www\trendr\dev\trm-content\plugins\trendr-activity-privacy/includes/trs-activity-privacy-loader.php:79
+#: C:\work\php\wamp_2.4\www\trendr\dev\trm-content\plugins\trendr-activity-privacy/includes/trs-activity-privacy-loader.php:145
+msgid "My Friends"
+msgstr "Meine Freunde"
+
+#: C:\work\php\wamp_2.4\www\trendr\dev\trm-content\plugins\trendr-activity-privacy/includes/trs-activity-privacy-admin.php:141
+#: C:\work\php\wamp_2.4\www\trendr\dev\trm-content\plugins\trendr-activity-privacy/includes/trs-activity-privacy-admin.php:233
+#: C:\work\php\wamp_2.4\www\trendr\dev\trm-content\plugins\trendr-activity-privacy/includes/trs-activity-privacy-admin.php:581
+#: C:\work\php\wamp_2.4\www\trendr\dev\trm-content\plugins\trendr-activity-privacy/includes/trs-activity-privacy-loader.php:92
+#: C:\work\php\wamp_2.4\www\trendr\dev\trm-content\plugins\trendr-activity-privacy/includes/trs-activity-privacy-loader.php:167
+#, fuzzy
+msgid "Mentioned Only"
+msgstr "@Nur Erwähnt"
+
+#: C:\work\php\wamp_2.4\www\trendr\dev\trm-content\plugins\trendr-activity-privacy/includes/trs-activity-privacy-admin.php:161
+#: C:\work\php\wamp_2.4\www\trendr\dev\trm-content\plugins\trendr-activity-privacy/includes/trs-activity-privacy-admin.php:268
+#: C:\work\php\wamp_2.4\www\trendr\dev\trm-content\plugins\trendr-activity-privacy/includes/trs-activity-privacy-loader.php:111
+#: C:\work\php\wamp_2.4\www\trendr\dev\trm-content\plugins\trendr-activity-privacy/includes/trs-activity-privacy-loader.php:212
+msgid "Admins Only"
+msgstr "Nur für Admins"
+
+#: C:\work\php\wamp_2.4\www\trendr\dev\trm-content\plugins\trendr-activity-privacy/includes/trs-activity-privacy-admin.php:169
+#: C:\work\php\wamp_2.4\www\trendr\dev\trm-content\plugins\trendr-activity-privacy/includes/trs-activity-privacy-admin.php:276
+#: C:\work\php\wamp_2.4\www\trendr\dev\trm-content\plugins\trendr-activity-privacy/includes/trs-activity-privacy-admin.php:583
+#: C:\work\php\wamp_2.4\www\trendr\dev\trm-content\plugins\trendr-activity-privacy/includes/trs-activity-privacy-loader.php:119
+#: C:\work\php\wamp_2.4\www\trendr\dev\trm-content\plugins\trendr-activity-privacy/includes/trs-activity-privacy-loader.php:220
+#, fuzzy
+msgid "Only Me"
+msgstr "Nur für mich"
+
+#: C:\work\php\wamp_2.4\www\trendr\dev\trm-content\plugins\trendr-activity-privacy/includes/trs-activity-privacy-admin.php:179
+#: C:\work\php\wamp_2.4\www\trendr\dev\trm-content\plugins\trendr-activity-privacy/includes/trs-activity-privacy-admin.php:286
+#: C:\work\php\wamp_2.4\www\trendr\dev\trm-content\plugins\trendr-activity-privacy/includes/trs-activity-privacy-admin.php:624
+#: C:\work\php\wamp_2.4\www\trendr\dev\trm-content\plugins\trendr-activity-privacy/includes/trs-activity-privacy-integrations.php:75
+#: C:\work\php\wamp_2.4\www\trendr\dev\trm-content\plugins\trendr-activity-privacy/includes/trs-activity-privacy-integrations.php:88
+msgid "My Followers"
+msgstr "Meine Followers"
+
+#: C:\work\php\wamp_2.4\www\trendr\dev\trm-content\plugins\trendr-activity-privacy/includes/trs-activity-privacy-admin.php:222
+#: C:\work\php\wamp_2.4\www\trendr\dev\trm-content\plugins\trendr-activity-privacy/includes/trs-activity-privacy-loader.php:153
+msgid "My Friends in Group"
+msgstr "Meine Freunde in der Gruppe"
+
+#: C:\work\php\wamp_2.4\www\trendr\dev\trm-content\plugins\trendr-activity-privacy/includes/trs-activity-privacy-admin.php:243
+#: C:\work\php\wamp_2.4\www\trendr\dev\trm-content\plugins\trendr-activity-privacy/includes/trs-activity-privacy-admin.php:598
+#: C:\work\php\wamp_2.4\www\trendr\dev\trm-content\plugins\trendr-activity-privacy/includes/trs-activity-privacy-loader.php:187
+msgid "Group Members"
+msgstr "Gruppenmitglieder"
+
+#: C:\work\php\wamp_2.4\www\trendr\dev\trm-content\plugins\trendr-activity-privacy/includes/trs-activity-privacy-admin.php:251
+#: C:\work\php\wamp_2.4\www\trendr\dev\trm-content\plugins\trendr-activity-privacy/includes/trs-activity-privacy-admin.php:599
+#: C:\work\php\wamp_2.4\www\trendr\dev\trm-content\plugins\trendr-activity-privacy/includes/trs-activity-privacy-loader.php:195
+msgid "Group Moderators"
+msgstr "Gruppenmoderatoren"
+
+#: C:\work\php\wamp_2.4\www\trendr\dev\trm-content\plugins\trendr-activity-privacy/includes/trs-activity-privacy-admin.php:259
+#: C:\work\php\wamp_2.4\www\trendr\dev\trm-content\plugins\trendr-activity-privacy/includes/trs-activity-privacy-admin.php:600
+#: C:\work\php\wamp_2.4\www\trendr\dev\trm-content\plugins\trendr-activity-privacy/includes/trs-activity-privacy-loader.php:203
+msgid "Group Admins"
+msgstr "Gruppenadmins"
+
+#: C:\work\php\wamp_2.4\www\trendr\dev\trm-content\plugins\trendr-activity-privacy/includes/trs-activity-privacy-admin.php:293
+#: C:\work\php\wamp_2.4\www\trendr\dev\trm-content\plugins\trendr-activity-privacy/includes/trs-activity-privacy-integrations.php:94
+msgid "My Followers in Group"
+msgstr "Meine Followers in Gruppen"
+
+#: C:\work\php\wamp_2.4\www\trendr\dev\trm-content\plugins\trendr-activity-privacy/includes/trs-activity-privacy-admin.php:302
+msgid "Settings saved."
+msgstr "Einstellungen gespeichert."
+
+#: C:\work\php\wamp_2.4\www\trendr\dev\trm-content\plugins\trendr-activity-privacy/includes/trs-activity-privacy-admin.php:318
+msgid "Settings reseted."
+msgstr "Einstellungen zurückzusetzen."
+
+#: C:\work\php\wamp_2.4\www\trendr\dev\trm-content\plugins\trendr-activity-privacy/includes/trs-activity-privacy-admin.php:332
+msgid "Profil Activity privacy"
+msgstr ""
+
+#: C:\work\php\wamp_2.4\www\trendr\dev\trm-content\plugins\trendr-activity-privacy/includes/trs-activity-privacy-admin.php:334
+#: C:\work\php\wamp_2.4\www\trendr\dev\trm-content\plugins\trendr-activity-privacy/includes/trs-activity-privacy-admin.php:359
+msgid "Please check the box to enable the privacy and Drag&Drop to sort :"
+msgstr ""
+"Bitte überprüfen Sie die Box, um die Privatsphäre zu ermöglichen und Drag & "
+"Drop zu sortieren:"
+
+#: C:\work\php\wamp_2.4\www\trendr\dev\trm-content\plugins\trendr-activity-privacy/includes/trs-activity-privacy-admin.php:357
+msgid "Groups Activity privacy"
+msgstr ""
+
+#: C:\work\php\wamp_2.4\www\trendr\dev\trm-content\plugins\trendr-activity-privacy/includes/trs-activity-privacy-admin.php:385
+#, fuzzy
+msgid "Settings"
+msgstr "Einstellungen speichern"
+
+#: C:\work\php\wamp_2.4\www\trendr\dev\trm-content\plugins\trendr-activity-privacy/includes/trs-activity-privacy-admin.php:386
+#, fuzzy
+msgid "Main settings"
+msgstr "Einstellungen speichern"
+
+#: C:\work\php\wamp_2.4\www\trendr\dev\trm-content\plugins\trendr-activity-privacy/includes/trs-activity-privacy-admin.php:388
+msgid "Admin privileges"
+msgstr ""
+
+#: C:\work\php\wamp_2.4\www\trendr\dev\trm-content\plugins\trendr-activity-privacy/includes/trs-activity-privacy-admin.php:390
+msgid "Allow admin to view and edit the prviacy of all activities"
+msgstr ""
+
+#: C:\work\php\wamp_2.4\www\trendr\dev\trm-content\plugins\trendr-activity-privacy/includes/trs-activity-privacy-admin.php:394
+msgid "Allow members to edit the privacy of their activities"
+msgstr ""
+
+#: C:\work\php\wamp_2.4\www\trendr\dev\trm-content\plugins\trendr-activity-privacy/includes/trs-activity-privacy-admin.php:399
+#, fuzzy
+msgid "UI settings"
+msgstr "Einstellungen speichern"
+
+#: C:\work\php\wamp_2.4\www\trendr\dev\trm-content\plugins\trendr-activity-privacy/includes/trs-activity-privacy-admin.php:403
+msgid "Font Awesome Icons"
+msgstr ""
+
+#: C:\work\php\wamp_2.4\www\trendr\dev\trm-content\plugins\trendr-activity-privacy/includes/trs-activity-privacy-admin.php:406
+msgid "Use FontAwesome Icons"
+msgstr ""
+
+#: C:\work\php\wamp_2.4\www\trendr\dev\trm-content\plugins\trendr-activity-privacy/includes/trs-activity-privacy-admin.php:410
+msgid "Custom styled selectbox"
+msgstr ""
+
+#: C:\work\php\wamp_2.4\www\trendr\dev\trm-content\plugins\trendr-activity-privacy/includes/trs-activity-privacy-admin.php:413
+msgid "Use custom styled selectbox"
+msgstr ""
+
+#: C:\work\php\wamp_2.4\www\trendr\dev\trm-content\plugins\trendr-activity-privacy/includes/trs-activity-privacy-admin.php:419
+#, fuzzy
+msgid "Privacy labels"
+msgstr "Privatsphäre:"
+
+#: C:\work\php\wamp_2.4\www\trendr\dev\trm-content\plugins\trendr-activity-privacy/includes/trs-activity-privacy-admin.php:422
+msgid ""
+"Show the privacy label in selectbox (Use FontAwesome Icons should be checked "
+"if this is unchecked)"
+msgstr ""
+
+#: C:\work\php\wamp_2.4\www\trendr\dev\trm-content\plugins\trendr-activity-privacy/includes/trs-activity-privacy-admin.php:426
+msgid "Privacy in activity meta"
+msgstr ""
+
+#: C:\work\php\wamp_2.4\www\trendr\dev\trm-content\plugins\trendr-activity-privacy/includes/trs-activity-privacy-admin.php:429
+msgid "Show the privacy in activity meta"
+msgstr ""
+
+#: C:\work\php\wamp_2.4\www\trendr\dev\trm-content\plugins\trendr-activity-privacy/includes/trs-activity-privacy-admin.php:437
+msgid "Save Settings"
+msgstr "Einstellungen speichern"
+
+#: C:\work\php\wamp_2.4\www\trendr\dev\trm-content\plugins\trendr-activity-privacy/includes/trs-activity-privacy-admin.php:438
+msgid "Reset"
+msgstr "rücksetzen"
+
+#: C:\work\php\wamp_2.4\www\trendr\dev\trm-content\plugins\trendr-activity-privacy/includes/trs-activity-privacy-admin.php:527
+#, php-format
+msgid "Welcome to BuddyPress Activity Privacy %s"
+msgstr ""
+
+#: C:\work\php\wamp_2.4\www\trendr\dev\trm-content\plugins\trendr-activity-privacy/includes/trs-activity-privacy-admin.php:528
+#, php-format
+msgid ""
+"Thank you for upgrading to the latest version of TRS Activity Privacy! <br "
+"\\> TRS Activity Privacy %s is ready to manage the activity privacy of your "
+"Site!"
+msgstr ""
+
+#: C:\work\php\wamp_2.4\www\trendr\dev\trm-content\plugins\trendr-activity-privacy/includes/trs-activity-privacy-admin.php:529
+#, php-format
+msgid "Version %s"
+msgstr ""
+
+#: C:\work\php\wamp_2.4\www\trendr\dev\trm-content\plugins\trendr-activity-privacy/includes/trs-activity-privacy-admin.php:531
+msgid ""
+"Please go to TRS Acitivity Privacy Configuration and save your settings to "
+"apply new update."
+msgstr ""
+
+#: C:\work\php\wamp_2.4\www\trendr\dev\trm-content\plugins\trendr-activity-privacy/includes/trs-activity-privacy-admin.php:535
+msgid "About"
+msgstr "über"
+
+#: C:\work\php\wamp_2.4\www\trendr\dev\trm-content\plugins\trendr-activity-privacy/includes/trs-activity-privacy-admin.php:540
+msgid "Add Privacy Controls To The BuddyPress Activity Stream!"
+msgstr ""
+
+#: C:\work\php\wamp_2.4\www\trendr\dev\trm-content\plugins\trendr-activity-privacy/includes/trs-activity-privacy-admin.php:543
+msgid ""
+"TRS Activity Privacy is a BuddyPress plugin who gives users the ability to "
+"restrict who can see their activity posts. "
+msgstr ""
+
+#: C:\work\php\wamp_2.4\www\trendr\dev\trm-content\plugins\trendr-activity-privacy/includes/trs-activity-privacy-admin.php:544
+msgid ""
+"It gives each member multiple privacy options on activity posts and should "
+"encourage more confident participation on your social network."
+msgstr ""
+
+#: C:\work\php\wamp_2.4\www\trendr\dev\trm-content\plugins\trendr-activity-privacy/includes/trs-activity-privacy-admin.php:549
+#, php-format
+msgid "What&#39; new in %s ?"
+msgstr ""
+
+#: C:\work\php\wamp_2.4\www\trendr\dev\trm-content\plugins\trendr-activity-privacy/includes/trs-activity-privacy-admin.php:553
+msgid ""
+"Allow admin to view and edit the prviacy of all activities (Check Admin "
+"privileges in plugin settings)."
+msgstr ""
+
+#: C:\work\php\wamp_2.4\www\trendr\dev\trm-content\plugins\trendr-activity-privacy/includes/trs-activity-privacy-admin.php:554
+msgid ""
+"Admin now have a control to enable/disable the members to edit the privacy "
+"of their activities."
+msgstr ""
+
+#: C:\work\php\wamp_2.4\www\trendr\dev\trm-content\plugins\trendr-activity-privacy/includes/trs-activity-privacy-admin.php:555
+msgid "Admin now have a control to enable/disable the FontAwesome icon."
+msgstr ""
+
+#: C:\work\php\wamp_2.4\www\trendr\dev\trm-content\plugins\trendr-activity-privacy/includes/trs-activity-privacy-admin.php:556
+msgid "Admin now have a finer control to enable/disable FontAwesome icon."
+msgstr ""
+
+#: C:\work\php\wamp_2.4\www\trendr\dev\trm-content\plugins\trendr-activity-privacy/includes/trs-activity-privacy-admin.php:557
+msgid "Admin now have a control to enable/disable the custom styled selectbox."
+msgstr ""
+
+#: C:\work\php\wamp_2.4\www\trendr\dev\trm-content\plugins\trendr-activity-privacy/includes/trs-activity-privacy-admin.php:558
+msgid ""
+"Admin now have a control to show/hide printing the privacy of activities in "
+"their meta."
+msgstr ""
+
+#: C:\work\php\wamp_2.4\www\trendr\dev\trm-content\plugins\trendr-activity-privacy/includes/trs-activity-privacy-admin.php:560
+msgid "Updates before current version"
+msgstr ""
+
+#: C:\work\php\wamp_2.4\www\trendr\dev\trm-content\plugins\trendr-activity-privacy/includes/trs-activity-privacy-admin.php:563
+msgid "The plugin work now on Multisite Network!"
+msgstr ""
+
+#: C:\work\php\wamp_2.4\www\trendr\dev\trm-content\plugins\trendr-activity-privacy/includes/trs-activity-privacy-admin.php:564
+msgid ""
+"A New privacy level (Mentioned only). When a member choose this privacy "
+"level, only mentioned members (and admin of course) can see the activity."
+msgstr ""
+
+#: C:\work\php\wamp_2.4\www\trendr\dev\trm-content\plugins\trendr-activity-privacy/includes/trs-activity-privacy-admin.php:565
+msgid ""
+"<strong>Remark:</strong> <i>Members mentioned in activity can see it's "
+"content whatever the privacy level.</i>"
+msgstr ""
+
+#: C:\work\php\wamp_2.4\www\trendr\dev\trm-content\plugins\trendr-activity-privacy/includes/trs-activity-privacy-admin.php:566
+msgid ""
+"New Dropdown system with a nice icons ( By <a target=\"_BLANK\" href="
+"\"http://fontawesome.io/\">Font Awesome</a> )."
+msgstr ""
+
+#: C:\work\php\wamp_2.4\www\trendr\dev\trm-content\plugins\trendr-activity-privacy/includes/trs-activity-privacy-admin.php:572
+msgid "How it's Work ?"
+msgstr ""
+
+#: C:\work\php\wamp_2.4\www\trendr\dev\trm-content\plugins\trendr-activity-privacy/includes/trs-activity-privacy-admin.php:576
+msgid ""
+"Once installed and activated, BuddyPress Activity Privacy adds following "
+"privacy controls to the post update box for members:"
+msgstr ""
+
+#: C:\work\php\wamp_2.4\www\trendr\dev\trm-content\plugins\trendr-activity-privacy/includes/trs-activity-privacy-admin.php:582
+#, fuzzy
+msgid "Admin Only"
+msgstr "Nur für Admins"
+
+#: C:\work\php\wamp_2.4\www\trendr\dev\trm-content\plugins\trendr-activity-privacy/includes/trs-activity-privacy-admin.php:585
+msgid ""
+"Certain privacy controls are component-dependent. For example, the \"Friends "
+"Only\" privacy option in the dropdown will not show up unless you have the "
+"Friends component activated in the BuddyPress settings panel."
+msgstr ""
+
+#: C:\work\php\wamp_2.4\www\trendr\dev\trm-content\plugins\trendr-activity-privacy/includes/trs-activity-privacy-admin.php:595
+msgid ""
+"When posting within a group the group-specific privacy options will be added "
+"to the dropdown, inlcluding:"
+msgstr ""
+
+#: C:\work\php\wamp_2.4\www\trendr\dev\trm-content\plugins\trendr-activity-privacy/includes/trs-activity-privacy-admin.php:597
+#, fuzzy
+msgid "My Friends in a Group"
+msgstr "Meine Freunde in der Gruppe"
+
+#: C:\work\php\wamp_2.4\www\trendr\dev\trm-content\plugins\trendr-activity-privacy/includes/trs-activity-privacy-admin.php:607
+msgid "Update the Privacy of the ol "
+msgstr ""
+
+#: C:\work\php\wamp_2.4\www\trendr\dev\trm-content\plugins\trendr-activity-privacy/includes/trs-activity-privacy-admin.php:611
+msgid ""
+"Members can update the privacy of the old activity stream (new selectbox in "
+"activity meta)."
+msgstr ""
+
+#: C:\work\php\wamp_2.4\www\trendr\dev\trm-content\plugins\trendr-activity-privacy/includes/trs-activity-privacy-admin.php:612
+msgid "Admin can also update the privacy of all the old activity stream."
+msgstr ""
+
+#: C:\work\php\wamp_2.4\www\trendr\dev\trm-content\plugins\trendr-activity-privacy/includes/trs-activity-privacy-admin.php:617
+msgid "Privacy control for Followers Plugin"
+msgstr ""
+
+#: C:\work\php\wamp_2.4\www\trendr\dev\trm-content\plugins\trendr-activity-privacy/includes/trs-activity-privacy-admin.php:621
+msgid "Fully integrated with Buddypress Follow"
+msgstr ""
+
+#: C:\work\php\wamp_2.4\www\trendr\dev\trm-content\plugins\trendr-activity-privacy/includes/trs-activity-privacy-admin.php:622
+msgid ""
+"If you have <a href=\"http://trendr.org/plugins/trendr-followers/"
+"\">BuddyPress Follow</a> installed in your site, TRS Activity Privacy adds "
+"new privacy levels :"
+msgstr ""
+
+#: C:\work\php\wamp_2.4\www\trendr\dev\trm-content\plugins\trendr-activity-privacy/includes/trs-activity-privacy-admin.php:625
+#, fuzzy
+msgid "My followers in Group"
+msgstr "Meine Followers in Gruppen"
+
+#: C:\work\php\wamp_2.4\www\trendr\dev\trm-content\plugins\trendr-activity-privacy/includes/trs-activity-privacy-admin.php:631
+msgid "Integration for Buddypress Activity Plus Plugin"
+msgstr ""
+
+#: C:\work\php\wamp_2.4\www\trendr\dev\trm-content\plugins\trendr-activity-privacy/includes/trs-activity-privacy-admin.php:635
+msgid ""
+"TRS Activity Privacy is released with Integration for <a href=\"http://"
+"trendr.org/plugins/trendr-activity-plus/\">Buddypress Activity Plus</"
+"a>."
+msgstr ""
+
+#: C:\work\php\wamp_2.4\www\trendr\dev\trm-content\plugins\trendr-activity-privacy/includes/trs-activity-privacy-admin.php:640
+msgid "TRS Acitivity Privacy Configuration"
+msgstr ""
+
+#: C:\work\php\wamp_2.4\www\trendr\dev\trm-content\plugins\trendr-activity-privacy/includes/trs-activity-privacy-admin.php:644
+#: C:\work\php\wamp_2.4\www\trendr\dev\trm-content\plugins\trendr-activity-privacy/includes/trs-activity-privacy-admin.php:654
+msgid "Configure TRS Activity Privacy"
+msgstr ""
+
+#: C:\work\php\wamp_2.4\www\trendr\dev\trm-content\plugins\trendr-activity-privacy/includes/trs-activity-privacy-admin.php:645
+msgid ""
+"From the settings menu of his trendr administration, the administrator is "
+"able to configure TRS Activity Privacy by :"
+msgstr ""
+
+#: C:\work\php\wamp_2.4\www\trendr\dev\trm-content\plugins\trendr-activity-privacy/includes/trs-activity-privacy-admin.php:647
+msgid "Enable/Disable a privacy level."
+msgstr ""
+
+#: C:\work\php\wamp_2.4\www\trendr\dev\trm-content\plugins\trendr-activity-privacy/includes/trs-activity-privacy-admin.php:648
+msgid "Sort the privacy levels."
+msgstr ""
+
+#: C:\work\php\wamp_2.4\www\trendr\dev\trm-content\plugins\trendr-activity-privacy/includes/trs-activity-privacy-admin.php:649
+msgid "Change the default privacy level."
+msgstr ""
+
+#: C:\work\php\wamp_2.4\www\trendr\dev\trm-content\plugins\trendr-activity-privacy/includes/trs-activity-privacy-admin.php:654
+msgid "Go to the TRS Activity Privacy Settings page"
+msgstr ""
+
+#: C:\work\php\wamp_2.4\www\trendr\dev\trm-content\plugins\trendr-activity-privacy/includes/trs-activity-privacy-integrations.php:467
+#, fuzzy
+msgid "Privacy : "
+msgstr "Privatsphäre:"
+
+#: C:\work\php\wamp_2.4\www\trendr\dev\trm-content\plugins\trendr-activity-privacy/includes/trs-activity-privacy-template.php:71
+#: C:\work\php\wamp_2.4\www\trendr\dev\trm-content\plugins\trendr-activity-privacy/includes/trs-activity-privacy-template.php:98
+msgid "Who can see this?"
+msgstr ""
+
+#: C:\work\php\wamp_2.4\www\trendr\dev\trm-content\plugins\trendr-activity-privacy/loader.php:113
+msgid ""
+"Buddypress Activity Privacy requires to be activated on the blog where "
+"BuddyPress is activated."
+msgstr ""
+
+#: C:\work\php\wamp_2.4\www\trendr\dev\trm-content\plugins\trendr-activity-privacy/loader.php:117
+msgid ""
+"Buddypress Activity Privacy and BuddyPress need to share the same network "
+"configuration."
+msgstr ""
+
+#: C:\work\php\wamp_2.4\www\trendr\dev\trm-content\plugins\trendr-activity-privacy/loader.php:152
+msgid ""
+"You cannot enable BuddyPress Activity Privacy because <strong>BuddyPress</"
+"strong> is not active. Please install and activate BuddyPress before trying "
+"to activate Buddypress Activity Privacy again."
+msgstr ""
+"Du kannst BuddyPress Activity Privacy nicht aktivieren da "
+"<strong>BuddyPress</strong> nicht aktiv oder installiert ist. Bitte "
+"aktiviere oder installiere Budypress und aktiviere danach Buddypress "
+"Activity Privacy erneut."
+
+#~ msgid "Only me"
+#~ msgstr "Nur für mich"
+
+#~ msgid "@mentioned only"
+#~ msgstr "@nur erwähnt"

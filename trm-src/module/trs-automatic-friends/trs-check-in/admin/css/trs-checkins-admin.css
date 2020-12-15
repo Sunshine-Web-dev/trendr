@@ -1,0 +1,83 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+span#range_disp {
+	vertical-align: super;
+}
+
+
+/*************** SUPPORT ***************/
+.trschk-adming-setting{
+	float: left;
+	width: 90%;
+}
+button.trschk-accordion {
+	background-color: hsl(0, 0%, 87%);
+	border: medium none;
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+	color: hsl(0, 0%, 27%);
+	cursor: pointer;
+	font-size: 15px;
+	margin: 0 5%;
+	outline: medium none;
+	padding: 15px 20px;
+	text-align: left;
+	transition: all 0.4s ease 0s;
+	width: 90%;
+}
+button.trschk-accordion.active, button.trschk-accordion:hover {
+	background-color: hsl(207, 90%, 54%);
+	color:white;
+}
+div.panel {
+	padding: 0 18px;
+	background-color: white;
+	max-height: 0;
+	overflow: hidden;
+	transition: max-height 0.2s ease-out;
+	margin:0px 5%;
+}
+button.trschk-accordion::after {
+	color: hsl(0, 0%, 47%);
+	content: "+";
+	float: right;
+	font-size: 13px;
+	font-weight: bold;
+	margin-left: 5px;
+}
+button.trschk-accordion::after:hover {
+	color: white;
+}
+button.trschk-accordion.active::after {
+	content: "−";
+	color:white;
+}
+.trschk-admin-row{
+	clear: both;
+	overflow: hidden;
+	padding-bottom: 5px;
+}
+.trschk-tab-header h3{
+	margin-left: 5%;
+}
+.trschk-header {
+	float: left;
+	width: 100%;
+	padding: 10px 0px;
+}
+.trschk-header .trschk-plugin-heading {
+	float: left;
+	margin: 0px;
+}
+.trschk-header .trschk-extra-actions {
+	float: right;
+	padding-bottom: 10px;
+}
+.notice-success, div.updated {
+	clear: both;
+}
+.trschk-selection-tags a{
+	text-decoration: none;
+}

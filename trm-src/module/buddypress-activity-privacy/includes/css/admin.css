@@ -1,0 +1,16 @@
+div.options-box {
+	margin-left:20px!important;
+	margin-right:10px!important;
+	border-left:4px solid #eaf3fa;
+	padding-left:15px
+}
+
+
+div.options-box input[type="radio"] {
+	margin: 0px 5px 0px 10px;
+}
+
+p.sortable span:last-child {
+	font-size: 10px;
+	color: #aaa;
+}

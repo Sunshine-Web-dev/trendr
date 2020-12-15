@@ -1,0 +1,370 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+
+/* css update for version 1.0.7 :: start */
+.trschk-marker-container {
+	background: transparent;
+	color: #a7a7b2;
+}
+.trschk-marker-container i {
+	margin-left: 10px;
+	font-size: 20px;
+	border: 1px solid;
+	border-radius: 100%;
+	width: 25px;
+	height: 25px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.trs-checkins.trs-checkin-panel {
+	width: 100%;
+	margin: 10px 0;
+}
+.trschk-single-location-added {
+	font-size: 14px;
+	padding: 10px;
+}
+#trschk-cancel-checkin .fa.fa-times {
+	padding: 0px;
+	background: black;
+	border-radius: 100%;
+	width: 18px;
+	height: 18px;
+	color: #fff;
+	text-align: center;
+	line-height: 17px;
+	margin-left: 5px;
+}
+#trschk-cancel-checkin .fa.fa-times:hover {
+ background: red;
+}
+#trschk-temp-location {
+	font-size: 16px;
+	text-decoration: underline;
+}
+/* css update for version 1.0.7 :: end */
+
+.trschk-place-map iframe{
+	width: 100%;
+}
+button.trschk-myplace-accordion {
+	background-color: hsl(0, 0%, 87%);
+	border: medium none;
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+	color: hsl(0, 0%, 27%);
+	cursor: pointer;
+	font-size: 15px;
+	margin: 0 5%;
+	outline: medium none;
+	padding: 15px 20px;
+	text-align: left;
+	transition: all 0.4s ease 0s;
+	width: 90%;
+}
+button.trschk-myplace-accordion.active, button.trschk-myplace-accordion:hover {
+	background-color: hsl(207, 90%, 54%);
+	color:white;
+}
+div.panel {
+	padding: 0 18px;
+	background-color: white;
+	max-height: 0;
+	overflow: hidden;
+	transition: max-height 0.2s ease-out;
+	margin:0px 5%;
+}
+button.trschk-myplace-accordion::after {
+	color: hsl(0, 0%, 47%);
+	content: "+";
+	float: right;
+	font-size: 13px;
+	font-weight: bold;
+	margin-left: 5px;
+}
+button.trschk-myplace-accordion::after:hover {
+	color: white;
+}
+button.trschk-myplace-accordion.active::after {
+	content: "−";
+	color:white;
+}
+.trschk-myplace-admin-row{
+	clear: both;
+	overflow: hidden;
+	padding-bottom: 5px;
+}
+/*.trschk-autocomplete-place{
+		background-color: #ffffff !important;
+		background-image: url("http://loadinggif.com/images/image-selection/3.gif")  !important;
+		background-size: 25px 25px  !important;
+		background-position:right center  !important;
+		background-repeat: no-repeat  !important;
+}*/
+#trschk-place-map iframe {
+	width: 100%;
+	height: 400px;
+	background-color: grey;
+}
+.trs-checkin-panel{
+	display: none;
+}
+span.trschk-allow-checkin{
+	cursor:pointer;
+}
+/*span.trschk-allow-checkin i {
+		font-size: 32px;
+		vertical-align: sub;
+		margin-top: 5%;
+}
+span.trschk-allow-checkin {
+		background-color: #D9D6D6;
+		cursor: pointer;
+		border-radius: 50%;
+		padding: 10px;
+}*/
+.trschk-places-fetched{
+	list-style-type: none;
+	height: 20em;
+	line-height: 18px;
+	border: 1px solid #ccc;
+	padding: 0px;
+	margin: 0;
+	overflow-y: scroll!important;
+	overflow-x: hidden;
+}
+.trschk-places-fetched li {
+	border-top: 1px solid #ccc;
+	cursor: pointer;
+	padding: 5px;
+}
+.trschk-places-fetched li:hover {
+	background-color: #D9D6D6;
+}
+
+.place-icon {
+	float: left;
+	margin: 5px;
+	border: 1px solid #ccc;
+	height: 25px;
+	width: 25px;
+	text-align: center;
+	/*line-height: 50px;*/
+	border-radius: 50%;
+	margin-right: 20px;
+	/*padding: 12px;*/
+}
+
+.trschk-single-place .place-icon {
+	display: flex;
+}
+
+.trschk-single-place .place-icon img {
+	margin: auto;
+}
+
+.place-details {
+	float: left;
+	width: 70%;
+	font-size: 12px;
+}
+.place-details h6 {
+	margin-bottom: 5px !important;
+}
+.trschk-places-fetched li {
+	border-bottom: 1px solid #ccc;
+	cursor: pointer;
+/*  padding: 15px;*/
+	float: left;
+	width: 100%;
+	border-top: 0px;
+}
+.place-details span {
+	font-size: 12px;
+	color: #868686;
+	line-height: 21px;
+	/* margin-top: 10px !important; */
+}
+.place-actions {
+	float: right;
+
+}
+.place-details h6 {
+	margin: 0px;
+}
+.place-actions a {
+	padding: 2px 15px;
+	background-color: #f8f8f8;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	font-size: 12px;
+	float: right;
+	margin: 8px;
+	color: #000;
+}
+.trschk-places-fetched li:hover {
+	background-color: #f5f5f5;
+}
+#trschk-add-as-place {
+	margin-left: 5px;
+	margin-right: 5px;
+}
+/*trschk marker container css*/
+.trschk-marker-container{
+	padding:3px;
+}
+.trschk-marker-container i{
+	margin-left:5px;
+	font-size: 18px;
+}
+.checkin-by-autocomplete{
+	width:100%;
+	height:70px;
+	float:left;
+	border:1px solid rgba(234,234,234,.6)
+}
+.checkin-by-autocomplete-map{
+	width:100%;
+	height:180px;
+	float: left;
+	border:1px solid rgba(234,234,234,.6)
+}
+.clear{
+	clear:both;
+}
+.trs-checkin-panel{
+	border:1px solid rgba(234,234,234,.6);
+	margin-bottom:5px;
+}
+#trschk-autocomplete-place{
+	border:1px solid rgba(234,234,234,.6);
+	width:100%;
+	padding:1px;
+	background: none;
+	border-radius:0px;
+	text-indent: 2px;
+}
+#trschk-autocomplete-place:placeholder-shown {
+	text-indent: 2px;
+}
+.pac-container {
+	height: 100px;
+	overflow-y: scroll;
+}
+.trschk-place-loader{
+	display: none;
+	float:right;
+}
+
+.trschk-fav-loc-map-details label::after {
+	content: ':';
+	float: right;
+	margin-right: 30px;
+}
+.trschk-fav-loc-map-details label, .trschk-fav-loc-map-details span
+{
+	float: left;
+	text-align: left;
+	font-size: 16px;
+}
+.trschk-fav-loc-map-details p
+{
+	margin: 5px 0px;
+	float: left;
+}
+.trschk-fav-loc-map iframe {
+	width: 100%;
+	height: 300px;
+}
+.trschk-fav-loc-map-details > p > label {
+	float: left;
+	width: 30%;
+}
+
+.trschk-fav-loc-map-details span {
+	width: 70%;
+}
+.trschk-fav-loc-map-container .ui-accordion-content {
+	background: #fff;
+}
+.trschk-fav-loc-row {
+	clear: both;
+	overflow: hidden;
+}
+.trschk-fav-loc-map-details label {
+	width: 30%;
+}
+.trschk-fav-loc-map-details span {
+	width: 70%;
+}
+@media( max-width: 767px ) {
+	.trschk-fav-loc-map-details label {
+		width: 50%;
+	}
+	.trschk-fav-loc-map-details span {
+		width: 50%;
+	}
+}
+
+.trschk-fav-loc-map-container h3 {
+	margin-top: 10px!important;
+	border-radius: 0;
+	border: 0;
+	border-left: 2px solid darkgray;
+	font-weight: 500;
+	color: #000;
+	background:none;
+}
+
+.trschk-fav-loc-map-container .ui-accordion-content{
+	border-radius: 0;
+	border: 0;
+	border-left: 2px solid gray;
+}
+
+.trschk-fav-loc-map-container .ui-button.ui-state-active {
+	color: #000;
+}
+
+.trschk-fav-loc-map-container .ui-state-hover, .trschk-fav-loc-map-container .ui-state-focus,.trschk-fav-loc-map-container .ui-button.ui-state-active:hover, .trschk-fav-loc-map-container a.ui-button:active {
+	border: 0;
+	border-left: 2px solid gray;
+	background: auto;
+	background: white;
+	color: #000;
+	outline: 0;
+}
+.trschk-fav-loc-map-container .ui-state-active, .ui-widget-header .ui-state-active, a.ui-button:active, .ui-button:active {
+	color: #000;
+}
+.trschk-fav-loc-map-container h3.ui-state-active {
+	border: 0;
+	border-left: 2px solid gray;
+	font-weight: 700;
+	outline: 0;
+}
+
+.trschk-fav-loc-map-container .ui-state-active .ui-icon, .trschk-fav-loc-map-container .ui-button:active .ui-icon, .trschk-fav-loc-map-container .ui-state-hover .ui-icon, .trschk-fav-loc-map-container .ui-button:hover .ui-icon, .trschk-fav-loc-map-container .ui-state-focus .ui-icon{
+	background-image: url(images/ui-icons_222222_256x240.png)!important;
+}
+
+.trschk-fav-loc-map-container .ui-state-active .ui-icon, .trschk-fav-loc-map-container .ui-button:active .ui-icon-triangle-1-s {
+	background-position: -65px 2px;
+}
+
+.trschk-fav-loc-map-container .ui-icon-triangle-1-e {
+	background-position: -32px 2px;
+}
+
+.trschk-fav-loc-map-details {
+	margin-top: 10px;
+}
+
+.trschk-fav-loc-map-container .ui-accordion-header .ui-icon {
+	position: relative!important;
+	left: 0em!important;
+	display: inline-block;
+}

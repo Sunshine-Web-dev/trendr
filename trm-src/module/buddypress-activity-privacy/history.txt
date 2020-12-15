@@ -1,0 +1,136 @@
+Version 1.0 ( may 1, 2013 )
+--------------------------------------------------------------
+
+- Initial Release.
+
+
+Version 1.0.1 ( may 2, 2013 )
+--------------------------------------------------------------
+
+- Fix small CSS problem in Activity Post Form.
+
+Version 1.0.2 ( may 5, 2013 )
+--------------------------------------------------------------
+
+- Fix if no activity, plugin show 'load more' button instead of message.
+
+
+Version 1.0.3 ( may 09, 2013 ) 
+--------------------------------------------------------------
+
+- Integration With Buddypress Follow plugin.
+- Integration With Buddypress Activity Plus plugin :XD.
+- Fix the array of privacy levels.
+- Add More Filters to make plugin extensible for new privacy levels ( Check  trs-activity-privacy-integrations.php ).
+
+
+Version 1.0.4 ( may 14, 2013 ) 
+--------------------------------------------------------------
+
+- Fix localization load.
+
+Version 1.0.4.1 ( may 14, 2013 ) 
+--------------------------------------------------------------
+
+- Fix localization load.
+
+
+Version 1.0.4.2 ( may 14, 2013 ) 
+--------------------------------------------------------------
+
+- Fix Privacy selectbox load group privacy in profile page.
+- Add spanish translation (thanks to Andrés Felipe).
+
+
+Version 1.0.4.3 ( may 15, 2013 ) 
+--------------------------------------------------------------
+
+- Fix Privacy selectbox.
+- Add french tranlation.
+
+Version 1.1 ( Jul 15, 2013 ) 
+--------------------------------------------------------------
+
+- Member can now change the visibility of the old activity.
+- Fix visibility of the last activity (in member header).
+
+Version 1.1.1 ( Aug 1, 2013 ) 
+--------------------------------------------------------------
+
+- Fix jquery select option on change event ( submit privacy selection on previous items ).
+
+Version 1.1.2 ( Aug 1, 2013 ) 
+--------------------------------------------------------------
+
+- Fix js bug due the use of trs_get_cookies() function (added since trs 1.8).
+
+Version 1.2 (Dec 17, 2013)
+--------------------------------------------------------------
+
+- New Dropdown system with a nice icons ( By Font Awesome http://fontawesome.io/ ).
+- Admin Option Area, Admin can update Enable/Disable privacy level, Sort the privacy levels and change the default privacy level.
+- Fix the visibility of the last activity in members directory and member profile page.
+
+
+Version 1.2.1 (Jan 11, 2014)
+--------------------------------------------------------------
+
+- New privacy level (@mentioned only). Members mentioned in the acitivity can see the content of acitivity whatever the privacy level. 
+
+Version 1.2.2 (Jan 18, 2014)
+--------------------------------------------------------------
+
+- Fix bug, visibility not work. 
+
+Version 1.3 (Jan 31, 2014)
+--------------------------------------------------------------
+
+- Fix localization load.
+- Fix integration with Followers plugin.
+
+Version 1.3.1 (Apr 17, 2014)
+--------------------------------------------------------------
+
+- Work on Multisite network.
+- Fix "new post" activities dropdown privacy as profile activites privacy.
+
+Version 1.3.2 (May 17, 2014)
+--------------------------------------------------------------
+- Fix issues when Buddypress Follow is activate 
+- Fix visibility of "Last update" activity on member header and members loop.
+- Beta Integration with trendr-media plugin (rtMedia for trendr, BuddyPress and bbPress).
+
+Version 1.3.3 (May 18, 2014)
+--------------------------------------------------------------
+- Fix bugs on integration with rtMedia.
+
+Version 1.3.4 (Mar 12, 2015)
+--------------------------------------------------------------
+- Admin have abitility to enable/disable FontAwsome icons.
+- Admin have abitility to enable/disable view and editing the privacy of all activities.
+- Admin have abitility to enable/disable viewing/editing the visibility for all members.
+- Admin have abitility show/hide the privacy label in selexbox.
+- Admin have abitility show/hide the privacy in activity meta.
+
+- Fix warning message trs_setup_current_user was called incorrectly
+- Fix bug visibility of "Last update" activity on member header and members loop.
+- Fix translation file loading
+- Fix some issues in rtMedia plugin integration
+
+
+Version 1.3.5 (Mar 20, 2015)
+--------------------------------------------------------------
+- Fix bug activity detail links caused by overidding  activity allowed_tags
+
+Version 1.3.6 (Mar 27, 2015)
+--------------------------------------------------------------
+- Fix integration with Buddypress Follow
+
+Version 1.3.7 (Nov 26, 2015)
+--------------------------------------------------------------
+- Fix "Post update" button and select options does not uppear
+- Fix integration with Buddypress Follow duplicate entry 
+- Add scroll fix on older versions of BuddyPress (thanks to @r-a-y)
+
+Version 1.3.8 (Nov 27, 2015) 
+- Fix issue on privacy select option, click not work 

@@ -1,0 +1,365 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: trendr Checkin\n"
+"POT-Creation-Date: 2017-11-02 10:27+0530\n"
+"PO-Revision-Date: 2017-11-02 10:30+0530\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.4\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-TRMHeader: trs-checkins.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: admin/class-trs-checkins-admin.php:99
+msgid "trendr Checkins Settings"
+msgstr ""
+
+#: admin/class-trs-checkins-admin.php:99 admin/class-trs-checkins-admin.php:235
+#: public/class-trs-checkins-public.php:135
+#: public/class-trs-checkins-public.php:348
+#, fuzzy
+msgid "Check-ins"
+msgstr "Enregistrements"
+
+#: admin/class-trs-checkins-admin.php:111
+#, fuzzy
+msgid "Email Support"
+msgstr "Envoyer un courriel au soutien technique"
+
+#: admin/class-trs-checkins-admin.php:112
+#, fuzzy
+msgid "User Manual"
+msgstr "Manual do Usuário"
+
+#: admin/class-trs-checkins-admin.php:113
+msgid "Rate Us on trendr.org"
+msgstr ""
+
+#: admin/class-trs-checkins-admin.php:115
+msgid "trendr Check-ins"
+msgstr ""
+
+#: admin/class-trs-checkins-admin.php:122
+msgid "<strong>Settings Saved.</strong>"
+msgstr ""
+
+#: admin/class-trs-checkins-admin.php:152
+#, fuzzy
+msgid "General"
+msgstr "Général"
+
+#: admin/class-trs-checkins-admin.php:157 trs-checkins.php:126
+#, fuzzy
+msgid "Support"
+msgstr "Support"
+
+#: admin/includes/trs-checkins-general-settings.php:41
+#: admin/includes/trs-checkins-general-settings.php:43
+#, fuzzy
+msgid "API Key"
+msgstr "API Clé"
+
+#: admin/includes/trs-checkins-general-settings.php:44
+#, fuzzy
+msgid "Verify"
+msgstr "Vérifier"
+
+#: admin/includes/trs-checkins-general-settings.php:45
+msgid ""
+"Due to changes in Google Maps API it's required to use an API key for the "
+"trendr Check-ins plugin to work properly. You can get the API key"
+msgstr ""
+
+#: admin/includes/trs-checkins-general-settings.php:45
+#, fuzzy
+msgid "here."
+msgstr "ici."
+
+#: admin/includes/trs-checkins-general-settings.php:52
+msgid "Check-in by"
+msgstr ""
+
+#: admin/includes/trs-checkins-general-settings.php:56
+msgid "Location Autocomplete"
+msgstr ""
+
+#: admin/includes/trs-checkins-general-settings.php:60
+#: admin/includes/trs-checkins-general-settings.php:80
+msgid "Place Types"
+msgstr ""
+
+#: admin/includes/trs-checkins-general-settings.php:62
+msgid ""
+"This setting will help the users check-in by autocomplete or place type "
+"google features."
+msgstr ""
+
+#: admin/includes/trs-checkins-general-settings.php:69
+#, fuzzy
+msgid "Range"
+msgstr "Plage"
+
+#: admin/includes/trs-checkins-general-settings.php:74
+msgid "This will set the range for fetching the places while check-in."
+msgstr ""
+
+#: admin/includes/trs-checkins-general-settings.php:83
+#, fuzzy
+msgid "Select All"
+msgstr "Tout sélectionner"
+
+#: admin/includes/trs-checkins-general-settings.php:84
+#, fuzzy
+msgid "Unselect All"
+msgstr "Tout déselectionner"
+
+#: admin/includes/trs-checkins-general-settings.php:92
+msgid "This will help in fetching the place types, that will be selected here."
+msgstr ""
+
+#: admin/includes/trs-checkins-support-settings.php:6
+msgid "FAQ(s)"
+msgstr ""
+
+#: admin/includes/trs-checkins-support-settings.php:12
+msgid "Does this plugin require trendr?"
+msgstr ""
+
+#: admin/includes/trs-checkins-support-settings.php:14
+msgid "Yes, It needs you to have trendr installed and activated."
+msgstr ""
+
+#: admin/includes/trs-checkins-support-settings.php:15
+msgid ""
+"You'll also get an admin notice and the plugin will become ineffective if "
+"the required plugin will not be there."
+msgstr ""
+
+#: admin/includes/trs-checkins-support-settings.php:21
+msgid "What is the use of API Key option provided in general settings section?"
+msgstr ""
+
+#: admin/includes/trs-checkins-support-settings.php:23
+msgid ""
+"With the help of Google Places Api Key, user can check-in with places "
+"autocomplete while updating post in trendr and list checked in location "
+"in google map."
+msgstr ""
+
+#: admin/includes/trs-checkins-support-settings.php:29
+msgid ""
+"How to check-in using Location Autocomplete option provided in general "
+"settings section?"
+msgstr ""
+
+#: admin/includes/trs-checkins-support-settings.php:31
+msgid ""
+"Location Autocomplete setting provide an interface at activity page to post "
+"an update using google places autocomplete."
+msgstr ""
+
+#: admin/includes/trs-checkins-support-settings.php:32
+msgid ""
+"There is an option [Add as my location] to set current check-in location as "
+"a favourite location."
+msgstr ""
+
+#: admin/includes/trs-checkins-support-settings.php:38
+msgid ""
+"How to check-in using Place Types option provided in general settings "
+"section?"
+msgstr ""
+
+#: admin/includes/trs-checkins-support-settings.php:40
+msgid ""
+"Place Types setting provide an interface at activity page to post an update "
+"using selected google places types. Range option will set the range in "
+"kilometers for fetching the places during check-in."
+msgstr ""
+
+#: admin/includes/trs-checkins-support-settings.php:46
+msgid "Where can I see all check-ins activity?"
+msgstr ""
+
+#: admin/includes/trs-checkins-support-settings.php:48
+msgid ""
+"Check-ins filter option provides trendr filter drop-down to list all "
+"check-ins activity."
+msgstr ""
+
+#: admin/includes/trs-checkins-support-settings.php:54
+msgid "Where can I see favourite locations?"
+msgstr ""
+
+#: admin/includes/trs-checkins-support-settings.php:56
+msgid ""
+"We are listing all favorite locations under Check-ins tab at trendr "
+"profile page."
+msgstr ""
+
+#: admin/includes/trs-checkins-support-settings.php:62
+msgid "How to set location at profile page?"
+msgstr ""
+
+#: admin/includes/trs-checkins-support-settings.php:64
+msgid ""
+"The plugin provides xprofile location field to set location at trendr "
+"edit profile page."
+msgstr ""
+
+#: admin/includes/trs-checkins-support-settings.php:70
+msgid "If I need to customize plugin, to whom I should contact?"
+msgstr ""
+
+#: admin/includes/trs-checkins-support-settings.php:72
+msgid ""
+"If you need additional help you can contact us at <a href=\"https://"
+"wbcomdesigns.com/contact/\" target=\"_blank\" title=\"Wbcom Designs\">Wbcom "
+"Designs</a>."
+msgstr ""
+
+#: trs-checkins.php:106
+#, php-format
+msgid "%1$s is ineffective as it requires %2$s to be installed and active."
+msgstr ""
+
+#: trs-checkins.php:117
+#, php-format
+msgid "%1$s is ineffective now as it requires %2$s to be active."
+msgstr ""
+
+#: trs-checkins.php:125
+#, fuzzy
+msgid "Settings"
+msgstr "Réglages"
+
+#: public/class-trs-checkins-public.php:89
+msgid "Start typing your location..."
+msgstr ""
+
+#: public/class-trs-checkins-public.php:93
+#: public/class-trs-checkins-public.php:546
+msgid "Add as my location"
+msgstr ""
+
+#: public/class-trs-checkins-public.php:94
+msgid "Saving location..."
+msgstr ""
+
+#: public/class-trs-checkins-public.php:100
+msgid "Please Wait.."
+msgstr ""
+
+#: public/class-trs-checkins-public.php:145
+#, fuzzy
+msgid "Locations"
+msgstr "Localisations"
+
+#: public/class-trs-checkins-public.php:169
+#, fuzzy
+msgid "My Locations"
+msgstr "Mes lieux"
+
+#: public/class-trs-checkins-public.php:348
+msgid "Check-ins Update"
+msgstr ""
+
+#: public/class-trs-checkins-public.php:363
+#, php-format
+msgid "%s checked-in"
+msgstr ""
+
+#: public/class-trs-checkins-public.php:526
+msgid "places-found"
+msgstr ""
+
+#: public/class-trs-checkins-public.php:540
+msgid "Select this location"
+msgstr ""
+
+#: public/class-trs-checkins-public.php:551
+msgid "places-not-found"
+msgstr ""
+
+#: public/class-trs-checkins-public.php:552
+msgid "Places not found !"
+msgstr ""
+
+#: public/class-trs-checkins-public.php:585
+msgid "place-details-found"
+msgstr ""
+
+#: public/class-trs-checkins-public.php:601
+msgid "Click here to cancel your checkin."
+msgstr ""
+
+#: public/class-trs-checkins-public.php:604
+#, fuzzy
+msgid "Show Locations"
+msgstr "﻿Afficher les lieux"
+
+#: public/class-trs-checkins-public.php:626
+msgid "place-details-not-found"
+msgstr ""
+
+#: public/class-trs-checkins-public.php:627
+msgid "Place details not found !"
+msgstr ""
+
+#: public/class-trs-checkins-public.php:648
+msgid "Checkin cancelled !"
+msgstr ""
+
+#: public/templates/checkin/trs-checkins-activity.php:25
+#, fuzzy
+msgid "Address"
+msgstr "Adresse"
+
+#: public/templates/checkin/trs-checkins-activity.php:31
+#, fuzzy
+msgid "Street"
+msgstr "Rue"
+
+#: public/templates/checkin/trs-checkins-activity.php:37
+#, fuzzy
+msgid "Postal Code"
+msgstr "Code postal"
+
+#: public/templates/checkin/trs-checkins-activity.php:43
+#, fuzzy
+msgid "City"
+msgstr "Ville"
+
+#: public/templates/checkin/trs-checkins-activity.php:49
+msgid "Visited Date"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "trendr Checkin"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "https://wbcomdesigns.com/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"This plugin adds extra feature to <strong>trendr Activity</strong> "
+"updates allowing users to <strong>check-in their current location</strong>."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Wbcom Designs"
+msgstr ""
